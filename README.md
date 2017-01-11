@@ -24,7 +24,7 @@ These information can be feed into the system to download the data model and cre
 
  __Note:__
 
-* To start the application locally, you need to start the bottle server on cmdline.
+* To start the application locally, you need to start the bottle server on cmdline or you can use apache configured with python to run the same using cgi-bin.
 * Before starting however run the trainer.py to create and save tarining algorithms first !!!
 
 Suggestions are always welcome !!!
