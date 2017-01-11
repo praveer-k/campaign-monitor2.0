@@ -1,0 +1,35 @@
+\documentclass[a4paper,12pt, notitlepage]{article}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage[english]{babel}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{xcolor,colortbl}
+\usepackage{multirow}
+
+\definecolor{Gray}{gray}{0.90}
+
+\makeatletter
+\newcommand*{\toc}{\@starttoc{toc}}{\let\clearpage\relax}
+\newcommand*{\lof}{\@starttoc{lof}}{\let\clearpage\relax}
+\newcommand*{\lot}{\@starttoc{lot}}{\let\clearpage\relax}
+\makeatother
+
+\geometry{ left=20mm, top=20mm, bottom=20mm }
+
+\begin{document}
+\title{Election Campaign Monitor}
+\author{Praveer Kumar}
+\maketitle
+\section*{Table of Contents}
+\toc
+\section*{List of Figures}
+\lof
+\section*{List of Tables}
+\lot
+
+\section{Error}
+\rule{\textwidth}{0.5pt}
+\par
+No Data Found !!!
+
+\end{document}

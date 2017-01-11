@@ -1,0 +1,385 @@
+\documentclass[a4paper,12pt, notitlepage]{article}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage[english]{babel}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{xcolor,colortbl}
+\usepackage{multirow}
+
+\definecolor{Gray}{gray}{0.90}
+
+\makeatletter
+\newcommand*{\toc}{\@starttoc{toc}}{\let\clearpage\relax}
+\newcommand*{\lof}{\@starttoc{lof}}{\let\clearpage\relax}
+\newcommand*{\lot}{\@starttoc{lot}}{\let\clearpage\relax}
+\makeatother
+
+\geometry{ left=20mm, top=20mm, bottom=20mm }
+
+\begin{document}
+\title{Election Campaign Monitor}
+\author{Praveer Kumar}
+\maketitle
+\section*{Table of Contents}
+\toc
+\section*{List of Figures}
+\lof
+\section*{List of Tables}
+\lot
+
+\section{Introduction}
+\rule{\textwidth}{0.5pt}
+\par
+This report is generated using the dataset extracted from Twitter using the keywords \textbf{<<keyword1>>} and, \textbf{<<keyword2>>}. It is saved under the name \textbf{<<dbName>>}. This dataset is collected from the country \textbf{<<country>>} and potrays the viewpoint of the people as seen on the platform ``Twitter'', strictly between the dates \textbf{<<fromDate>>} and \textbf{<<toDate>>}.
+
+\begin{mdframed}[hidealllines=true,backgroundcolor=blue!20]
+\textbf{Please Note:} The Report is generated automatically and is intented for an overview of the model only.
+\end{mdframed}
+\par
+In order to analyse the effect of sentiments on the overall decision of the people, each text downloaded from Twitter were analysed for its sentiment using voted classifier. Once these positive/negative sentiments are labled for each text, a further investigation is carried out to analyse the effects of different predictors such as place, device, user etc. on the overall decision of the people using logistic regression.
+\par
+Each hastag for either of the keywords recieved is counted as "+1 vote". Out of the few models considered the best model is picked using Akaike Information Criteria or AIC. Once the best model is selected, the significane of each variable is calculated. The report is then interpreted for each descriptor used. To cross verify the quality of the model daignostic graphs are also obtained. The steps followed during the process is mentioned in the following sections.
+
+\section{Training}
+\rule{\textwidth}{0.5pt}
+\par
+The accuracy of each classifier after training them with the NLTK corpus for Twitter Senitment Analysis is mentioned in the table \ref{table:1} as follows.
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{ |l|r| }
+\hline \rowcolor{Gray}
+Classifier & Accuracy   \\[1ex]
+\hline
+MultinomialNB & 93.10\%   \\[1ex]
+BernoulliNB & 94.75\%  \\[1ex]
+LogisticRegression & 95.10\% \\[1ex]
+SGDClassifier & 95.10\% \\[1ex]
+SVC & 94.95\% \\[1ex]
+NuSVC & 94.95\% \\[1ex]
+LinearSVC & 94.90\% \\[1ex]
+\hline
+\end{tabular}
+%-------------------------------------%
+\caption{Accuracy of the Classifiers trained for Sentiment Analysis}
+\label{table:1}
+\end{table}
+
+\section{Cleaning}
+\rule{\textwidth}{0.5pt}
+\par
+In order to clean the data obtained using the Twitter APIs, first the discriptor variables are grouped to see the relationship between various choosen predictor variables according to user, place, tweets, and source as mentioned in the table \ref{table:2} as follows.
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{ |l|l|l|l|l| }
+\hline \rowcolor{Gray}
+tweet & place & author & user & source \\[1ex]
+\hline
+tweet id      & place id    & author id          & user id             & source \\[1ex]
+created at    & subdivision & author screen name & name                &        \\[1ex]
+lang          & location    &                    & screen name         &        \\[1ex]
+retweeted     &             &                    & user created at     &        \\[1ex]
+text          &             &                    & description         &        \\[1ex]
+links         &             &                    & friends count       &        \\[1ex]
+retweet count &             &                    & statuses count      &        \\[1ex]
+              &             &                    & followers count     &        \\[1ex]
+              &             &                    & favourites count    &        \\[1ex]
+              &             &                    & contributors enabled&        \\[1ex]
+\hline
+\end{tabular}
+%-------------------------------------%
+\caption{Discriptor variables grouped according to user, place, tweets etc.}
+\label{table:2}
+\end{table}
+
+\par
+Then, they are categorized according to the relevance in the model, as mentioned in the table \ref{table:3} below.
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{ |l|l|l|l|l| }
+\hline \rowcolor{Gray}
+numeric	 & 	multifactors & twofactors & timeseries & dropable \\[1ex]
+\hline
+friends count    & author screen name & user id     & created at          & category \\[1ex]
+statuses count   & source           & name      & user created at & contributors enabled\\[1ex]
+followers count  & screen name        & description &             & retweeted \\[1ex]
+favourites count & subdivision        & place id    &             &        \\[1ex]
+retweet count    &                    & location    &             &        \\[1ex]
+confidence       &                    & tweet id    &             &        \\[1ex]
+                 &                    & lang        &             &        \\[1ex]
+                 &                    & links       &             &        \\[1ex]
+                 &                    & author id   &             &        \\[1ex]
+                 &                    &             &             &        \\[1ex]
+\hline
+\end{tabular}
+%-------------------------------------%
+\caption{Discriptor variables grouped according to relevance in the model}
+\label{table:3}
+\end{table}
+
+\par
+It can be seen from the table above that the multifactor predictor need factor reduction. Also, time series column can be used to understand which keyword was spoken at what time. Since, the dropable variables give the same information as few other variables they are dropped from the model. The frequency distribution charts are plotted for each of these variables as mentioned the figure \ref{fig:hist1} below.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure1>>}
+    \caption{Histogram for frequency of tweets}
+    \label{fig:hist1}
+\end{figure}
+
+\par
+From the figure \ref{fig:hist1} it can be seen that the number of unique tweets from the
+downloaded set of tweets is <<uniqueTweets>> where as the number of tweets that appear to be same are <<sameTweets>>. It can also be noted that the few of the tweets are retweeted more than the others with the tweet ``<<mostTweeted>>'' being tweeted the most. It appears in the dataset at indexes <<tweetIndex>> from the users <<userIndex>>.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure2>>}
+    \caption{Text Comparision - Individual and Re-Tweets}
+    \label{fig:vbarplot1}
+\end{figure}
+
+\par
+The figure \ref{fig:vbarplot1} shows the number of tweets that contains 'RT ' in front of the given text and those that do not contain it. From this frequency plot it can be seen
+that the number of individual tweets is <<individualTweets>> and number of re-tweets is <<retweets>> in count.
+
+\par
+The following graphs show the analysis of tweets, according to locations.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure3>>}
+    \caption{Box plot of tweets frequency from various places in <<country>> }
+    \label{fig:boxplot1}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure4>>}
+    \caption{Frequency distribution tweets in <<country>> }
+    \label{fig:vbarplot2}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure5>>}
+    \caption{Histogram for tweets Frequency w.r.t places}
+    \label{fig:hist2}
+\end{figure}
+
+\par
+From the figure \ref{fig:boxplot1}, \ref{fig:vbarplot2}, \ref{fig:hist2}, it is clear that people from <<frequentPlaces>> tend to tweet more other places and from the boxplot it is clear that the data is <<skwenessWRTPlaces>>.
+
+\par
+The following graphs show the analysis of tweets according to the sources or the devices used for tweeting. It is interesting to see which voters tend to use which kind of device.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure6>>}
+    \caption{Box plot of tweets frequency from various sources}
+    \label{fig:boxplot2}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure7>>}
+    \caption{Frequency distribution sources of tweets}
+    \label{fig:vbarplot3}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure8>>}
+    \caption{Histogram for tweets Frequency w.r.t sources}
+    \label{fig:hist3}
+\end{figure}
+
+\par
+The figure \ref{fig:boxplot2}, \ref{fig:vbarplot3} and \ref{fig:hist3} shows that the twitter users tweet mainly using <<frequentSources>> device more than any other. From the boxplot it is clear that the data is <<skewnessWRTSources>>.
+
+\par
+The following graphs show the analysis of tweets w.r.t. the screen names of the users. These graphs help in understanding the tweeting frequency of each user.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure9>>}
+    \caption{Box plot of users frequencies of tweets}
+    \label{fig:boxplot3}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure10>>}
+    \caption{Frequency distribution user's tweets}
+    \label{fig:vbarplot4}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure11>>}
+    \caption{Histogram for users tweeting Frequency}
+    \label{fig:hist4}
+\end{figure}
+
+\par
+The figure \ref{fig:boxplot3}, \ref{fig:vbarplot4} and, \ref{fig:hist4} shows that the twitter users <<frequentUsers>> tend to tweet more about the keywords <<keyword1>> and, <<keyword2>> than any other person on twitter from the sample. From the boxplot it is clear that the data is <<skwenessWRTUsers>>.
+
+\par
+The following graph show the time series analysis of tweets w.r.t. keywords been talked about, over the given period of time.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure12>>}
+    \caption{Conversation on <<keyword1>> and <<keyword2>> over the period of time}
+    \label{fig:timeseries1}
+\end{figure}
+
+\section{Modelling}
+\rule{\textwidth}{0.5pt}
+\par
+Various selection process and interaction terms are used in order to identify the statistically significant predictors in the model. After reducing the factor levels and creating dummy variables we apply the logit function on our model and check for significance level of predictor in each model. Akaike Information Criteria for the models are mentioned in the table \ref{table:4} as follows.
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{ |l|r| }
+\hline \rowcolor{Gray}
+Model & AIC   \\
+\hline
+<<modelAIC>>
+\hline
+\end{tabular}
+%-------------------------------------%
+\caption{AIC	values obtained for each model}
+\label{table:4}
+\end{table}
+
+\par
+So, the best model among the selected model is mentioned as follows.
+
+\begin{mdframed}[hidealllines=true,backgroundcolor=gray!20]
+<<bestModelFormula>>
+\end{mdframed}
+
+\par
+After careful few iterations, the following logit model is fitted. The result summary obtained from this model is mentioned in the table \ref{table:5} as follows.
+
+\begin{mdframed}[hidealllines=true,backgroundcolor=gray!20]
+	\begin{verbatim}
+		<<modelSummary>>
+	\end{verbatim}
+\end{mdframed}
+
+\par
+Since the log likelyhood ratio p-value (LLR p-value) is euqal to <<llrPValue>> which is <<moreOrLess>> than 0.05 therefore, the null hypothesis is <<rejectedOrAccepted>> and it is concluded that the votes are <<dependentOrIndependent>> of the discriptor variables. <<extraComment>>
+\par
+The confidence interval and the odds ratio is mentioned in the table \ref{table:5} as follows:
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{ |l|r|r|r| }
+\hline \rowcolor{Gray}
+Predictor & Lower CI & Upper CI & Odds Ratio   \\
+\hline
+<<OddsandCI>>
+\hline
+\end{tabular}
+%-------------------------------------%
+\caption{Confidence Interval and Odds Ratio for the selected model}
+\label{table:5}
+\end{table}
+
+So, it can be seen from the model above that the discriptor variables <<sigVars>> are statistically significant where as, the variables <<inSigVars>> are not significant.
+
+\section{Interpretation}
+\rule{\textwidth}{0.5pt}
+\par
+According to the given model, following can be said about the given model:
+
+\begin{itemize}
+<<listOfComments>>
+\end{itemize}
+
+\section{Diagnostics}
+\rule{\textwidth}{0.5pt}
+\par
+Dependent variable (y), predicted values of y(ypred), error terms (e), hat values (h), pearson's residual values (rpear), deviance residual values (rdev) and, cook's distance values (D) are clubed together for closer investigation. The table \ref{table:6} shows a small portion of the data frame generated by grouping these variables into one dataframe.
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{ |l|r|r|r|r|r|r| }
+\hline \rowcolor{Gray}
+h & y & rdev & rpear & e & ypred & D\\
+\hline
+<<diagTable>>
+\hline
+\end{tabular}
+%-------------------------------------%
+\caption{Diagnostics summary for sample dataset}
+\label{table:6}
+\end{table}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure13>>}
+    \caption{Index plot of pearson's residual}
+    \label{fig:rpear1}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure14>>}
+    \caption{Index plot of deviance residual}
+    \label{fig:rdev1}
+\end{figure}
+
+Since, the pearson's residual and deviance residual is randomly scattered, having bands of rectangular cloud. So, the systematic component of the model is correct.
+
+The following graphs show the cases of high leverage and cases of high influence.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure15>>}
+    \caption{Plot for identifying cases of high leverage}
+    \label{fig:highleverage1}
+\end{figure}
+
+The figure \ref{fig:highleverage1} shows the cases of high leverage. The values above the cut off <<cutOff>> line marked in red are the cases of high leverage. In this case, we have <<noOfHighLev>> cases of high leverage. They are indexed as <<indexOfHighLev>> in the dataset.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{<<figure16>>}
+    \caption{Plot for identifying cases of high influence}
+    \label{fig:highInfluence1}
+\end{figure}
+
+The figure \ref{fig:highInfluence1} shows the cases of high influence. In this case, we have <<noOfHighInf>> cases of high influence and they are indexed as <<indexOfHighInf>> in the dataset.
+
+\section{Accuracy}
+\rule{\textwidth}{0.5pt}
+\par
+The accuracy of the model is obtained by considering the predicted values above 0.5 as <<keyword2>> while, values below or equal to 0.5 is considered as <<keyword1>>. A confusion matrix is plotted in order to obtain the overall accuracy of the model. The table \ref{table:7} shows the confusion matrix.
+
+\begin{table}[!htbp]
+\centering
+%-------------------------------------%
+\begin{tabular}{cc|c|c|c|} \cline{3-5}
+ & & \multicolumn{2}{c|}{\cellcolor{Gray!50}Predicted} & \cellcolor{Gray!50}Total \\[1ex] \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{ \cellcolor{Gray!50}Actual}} & \<<keyword1>> & <<tp1>> & <<fp1>> & <<t1>> \\[1ex]
+\multicolumn{1}{|c|}{\cellcolor{Gray!50} } & \<<keyword2>> & <<fp2>> & <<tp2>> & <<t2>> \\[1ex] \hline
+\multicolumn{1}{c|}{} & \cellcolor{Gray!50} Total & <<tt1f2>> & <<tf1t2>> & <<t>> \\[1ex] \cline{2-5}
+\end{tabular}
+%-------------------------------------%
+\caption{Confusion Matrix for the Model}
+\label{table:7}
+\end{table}
+
+So, the model is accurately able to identify <<accKey1>>\% of the results for <<keyword1>> and <<accKey2>>\% for <<keyword2>>. Also, the overall accuracy of the model is <<acc>>\%. So, we can say that the model performs <<wellnessKey1>> in predicting the accuracy of <<keyword1>> and <<wellnessKey2>> while predicting the accuracy of <<keyword2>>. Consequently, it can be said that <<sureKey1>>\% of the people are sure to vote for <<keyword1>> and, <<sureKey2>>\% of the people are sure to vote for <<keyword2>>.
+
+\end{document}

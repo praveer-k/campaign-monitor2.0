@@ -1,0 +1,992 @@
+{
+    "Solomon Islands": {
+        "code": "SB",
+        "name": "Solomon Islands",
+        "subdivisions": ["Guadalcanal", "Choiseul", "Malaita", "Central", "Capital Territory Honiara", "Rennell and Bellona", "Western", "Isabel", "Makira", "Temotu"]
+    },
+    "Japan": {
+        "code": "JP",
+        "name": "Japan",
+        "subdivisions": ["Shimane", "Gifu", "Yamaguchi", "Kochi", "Ehime", "Akita", "Mie", "Kyoto", "Nagano", "Okayama", "Kagawa", "Yamagata", "Fukuoka", "Yamanashi", "Iwate", "Kanagawa", "Shizuoka", "Nara", "Fukushima", "Osaka", "Hokkaido", "Kumamoto", "Miyazaki", "Niigata", "Chiba", "Kagoshima", "Ishikawa", "Aichi", "Okinawa", "Nagasaki", "Hyogo", "Tochigi", "Ibaraki", "Shiga", "Saga", "Tottori", "Miyagi", "Fukui", "Wakayama", "Gunma", "Oita", "Tokushima", "Hiroshima", "Tokyo", "Toyama", "Aomori", "Saitama"]
+    },
+    "Indonesia": {
+        "code": "ID",
+        "name": "Indonesia",
+        "subdivisions": ["Bengkulu", "Jambi", "Sumatera", "Nusa Tenggara Barat", "Papua", "Papua Barat", "Kalimantan Tengah", "Nusa Tenggara", "Jawa Timur", "Gorontalo", "Maluku Utara", "Kalimantan Timur", "Banten", "Sulawesi", "Sumatra Barat", "Kalimantan Selatan", "Bali", "Kepulauan Riau", "Nusa Tenggara Timur", "Bangka Belitung", "Sulawesi Tenggara", "Sulawesi Selatan", "Aceh", "Kalimantan", "Yogyakarta", "Sulawesi Barat", "Maluku", "Sulawesi Utara", "Jawa Tengah", "Kalimantan Barat", "Jawa", "Riau", "Jawa Barat", "Sumatera Utara", "Jakarta Raya", "Sulawesi Tengah", "Sumatra Selatan", "Lampung"]
+    },
+    "Rwanda": {
+        "code": "RW",
+        "name": "Rwanda",
+        "subdivisions": ["Ouest", "Sud", "Ville de Kigali", "Est", "Nord"]
+    },
+    "Norway": {
+        "code": "NO",
+        "name": "Norway",
+        "subdivisions": ["Svalbard Arctic Region", "SrTrndelag", "AustAgder", "Troms", "Vestfold", "Sogn og Fjordane", "Oslo", "Nordland", "Buskerud", "stfold", "Oppland", "Telemark", "Mre og Romsdal", "Hordaland", "Hedmark", "NordTrndelag", "Finnmark", "Akershus", "Jan Mayen Arctic Region", "Rogaland", "VestAgder"]
+    },
+    "Afghanistan": {
+        "code": "AF",
+        "name": "Afghanistan",
+        "subdivisions": ["Takhr", "Zbul", "Parwn", "Kandahr", "Badakhshn", "Bdghs", "Paktiy", "Kps", "Ghr", "Ghazn", "Kunduz", "Dykund", "Kbul", "Lgar", "Jowzjn", "Nristn", "Farh", "Nmrz", "Balkh", "Uruzgn", "Baghln", "Wardak", "Laghmn", "Bmyn", "Nangarhr", "Panjshayr", "Khst", "Paktk", "Samangn", "Sare Pul", "Helmand", "Kunar", "Hert", "Fryb"]
+    },
+    "Guinea": {
+        "code": "GN",
+        "name": "Guinea",
+        "subdivisions": ["Lola", "Koundara", "Dalaba", "Dubrka", "Gukdou", "Macenta", "Nzrkor", "Forcariah", "Kindia", "Coyah", "Mamou", "Krouan", "Tliml", "Mandiana", "Gaoual", "Dinguiraye", "Kissidougou", "Yomou", "Fria", "Kouroussa", "Dabola", "Boffa", "Kankan", "Koubia", "Llouma", "Mali", "Lab", "Beyla", "Tougu", "Faranah", "Conakry", "Bok", "Pita", "Siguiri"]
+    },
+    "United States Minor Outlying Islands": {
+        "code": "UM",
+        "name": "United States Minor Outlying Islands",
+        "subdivisions": ["Johnston Atoll", "Kingman Reef", "Palmyra Atoll", "Jarvis Island", "Navassa Island", "Baker Island", "Wake Island", "Midway Islands", "Howland Island"]
+    },
+    "Chile": {
+        "code": "CL",
+        "name": "Chile",
+        "subdivisions": ["Valparaso", "Libertador General Bernardo OHiggins", "Aisn del General Carlos Ibez del Campo", "Maule", "Araucana", "Regin Metropolitana de Santiago", "Magallanes y Antrtica Chilena", "Atacama", "Los Ros", "Tarapac", "Coquimbo", "BoBo", "Antofagasta", "Los Lagos", "Arica y Parinacota"]
+    },
+    "Netherlands": {
+        "code": "NL",
+        "name": "Netherlands",
+        "subdivisions": ["NoordBrabant", "Sint Maarten", "NoordHolland", "Limburg", "Saba", "Bonaire", "ZuidHolland", "Sint Eustatius", "Friesland", "Aruba", "Overijssel", "Curaao", "Utrecht", "Gelderland", "Groningen", "Drenthe", "Zeeland", "Flevoland"]
+    },
+    "Kuwait": {
+        "code": "KW",
+        "name": "Kuwait",
+        "subdivisions": ["Al Farwnyah", "Al Ahmadi", "Hawall", "Al Jahrr", "Al Kuwayt Al imah", "Mubrak al Kabr"]
+    },
+    "Venezuela Bolivarian Republic of": {
+        "code": "VE",
+        "name": "Venezuela Bolivarian Republic of",
+        "subdivisions": ["Tchira", "Trujillo", "Nueva Esparta", "Gurico", "Lara", "Monagas", "Dependencias Federales", "Delta Amacuro", "Miranda", "Portuguesa", "Zulia", "Barinas", "Cojedes", "Sucre", "Falcn", "Yaracuy", "Amazonas", "Vargas", "Mrida", "Aragua", "Distrito Federal", "Anzotegui", "Apure", "Carabobo", "Bolvar"]
+    },
+    "Fiji": {
+        "code": "FJ",
+        "name": "Fiji",
+        "subdivisions": ["Central", "Eastern", "Western", "Rotuma", "Northern"]
+    },
+    "India": {
+        "code": "IN",
+        "name": "India",
+        "subdivisions": ["Madhya Pradesh", "Andhra Pradesh", "Meghalaya", "West Bengal", "Bihar", "Uttar Pradesh", "Andaman and Nicobar Islands", "Manipur", "Arunachal Pradesh", "Gujarat", "Puducherry", "Dadra and Nagar Haveli", "Damen and Diu", "Haryana", "Punjab", "Karnataka", "Chandigarh", "Uttarakhand", "Rajasthan", "Tripura", "Delhi", "Lakshadweep", "Chhattisgarh", "Kerala", "Orissa", "Goa", "Tamil Nadu", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Assam", "Mizoram", "Nagaland", "Sikkim", "Maharashtra"]
+    },
+    "Poland": {
+        "code": "PL",
+        "name": "Poland",
+        "subdivisions": ["Lubuskie", "Opolskie", "Lubelskie", "dzkie", "Podkarpackie", "lskie", "Dolnolskie", "Kujawskopomorskie", "Wielkopolskie", "Warmiskomazurskie", "Zachodniopomorskie", "Mazowieckie", "Podlaskie", "witokrzyskie", "Pomorskie", "Maopolskie"]
+    },
+    "Portugal": {
+        "code": "PT",
+        "name": "Portugal",
+        "subdivisions": ["Aveiro", "Setbal", "vora", "Faro", "Viseu", "Bragana", "Vila Real", "Viana do Castelo", "Coimbra", "Leiria", "Lisboa", "Santarm", "Beja", "Braga", "Regio Autnoma dos Aores", "Guarda", "Portalegre", "Regio Autnoma da Madeira", "Porto", "Castelo Branco"]
+    },
+    "Suriname": {
+        "code": "SR",
+        "name": "Suriname",
+        "subdivisions": ["Marowijne", "Nickerie", "Coronie", "Commewijne", "Para", "Saramacca", "Brokopondo", "Sipaliwini", "Paramaribo", "Wanica"]
+    },
+    "Antigua and Barbuda": {
+        "code": "AG",
+        "name": "Antigua and Barbuda",
+        "subdivisions": ["Saint Peter", "Saint George", "Saint Philip", "Saint John", "Saint Mary", "Redonda", "Saint Paul", "Barbuda"]
+    },
+    "Malaysia": {
+        "code": "MY",
+        "name": "Malaysia",
+        "subdivisions": ["Wilayah Persekutuan Labuan", "Negeri Sembilan", "Wilayah Persekutuan Putrajaya", "Wilayah Persekutuan Kuala Lumpur", "Selangor", "Johor", "Pahang", "Perak", "Terengganu", "Perlis", "Melaka", "Pulau Pinang", "Sabah", "Kelantan", "Kedah", "Sarawak"]
+    },
+    "Tanzania United Republic of": {
+        "code": "TZ",
+        "name": "Tanzania United Republic of",
+        "subdivisions": ["Singida", "Mtwara", "Tabora", "Kigoma", "DaresSalaam", "Kaskazini Pemba", "Kagera", "Mara", "Mwanza", "Dodoma", "Ruvuma", "Kilimanjaro", "Mjini Magharibi", "Kusini Pemba", "Kusini Unguja", "Iringa", "Arusha", "Tanga", "Rukwa", "Kaskazini Unguja", "Shinyanga", "Pwani", "Mbeya", "Manyara", "Morogoro", "Lindi"]
+    },
+    "Russian Federation": {
+        "code": "RU",
+        "name": "Russian Federation",
+        "subdivisions": ["Kalmykiya", "Khakasiya", " Respublika", " Respublika Yakutiya", "Novosibirskaya oblast", "Vladimirskaya oblast", "Sakhalinskaya oblast", "Kurganskaya oblast", "Leningradskaya oblast", "Sakha", "Lipetskaya oblast", "Krasnoyarskiy kray", "Dagestan", "Ulyanovskaya oblast", "Mordoviya", "Tomskaya oblast", "Altayskiy kray", "Kirovskaya oblast", "Nenetskiy avtonomnyy okrug", "Moskva", "Volgogradskaya oblast", "Pskovskaya oblast", "Chelyabinskaya oblast", "KhantyMansiysky avtonomnyy okrugYugra", "Kemerovskaya oblast", "Buryatiya", "Adygeya", "Samaraskaya oblast", "Zabajkalskij kraj", "Ivanovskaya oblast", "Murmanskaya oblast", "Kamchatskiy kray", "Tyumenskaya oblast", "KarachayevoCherkesskaya Respublika", "Astrakhanskaya oblast", "Tverskaya oblast", "Orlovskaya oblast", "Komi", "Moskovskaya oblast", "Orenburgskaya oblast", "Tatarstan", "Kaliningradskaya oblast", "Tyva", "Nizhegorodskaya oblast", "Chechenskaya Respublika", "Vologodskaya oblast", "Kurskaya oblast", "Kaluzhskaya oblast", "Bashkortostan", "Primorskiy kray", "Penzenskaya oblast", "Chukotskiy avtonomnyy okrug", " Respublika Tuva", "Kostromskaya oblast", "Mariy El", "Krasnodarskiy kray", "Belgorodskaya oblast", "Yaroslavskaya oblast", "Sverdlovskaya oblast", "Omskaya oblast", "Bryanskaya oblast", "Kareliya", "Respublika Ingushetiya", "Saratovskaya oblast", "Udmurtskaya Respublika", "Severnaya OsetiyaAlaniya", "YamaloNenetskiy avtonomnyy okrug", "Novgorodskaya oblast", "Voronezhskaya oblast", "Stavropolskiy kray", "Permskiy kray", "Ryazanskaya oblast", "Rostovskaya oblast", "Magadanskaya oblast", "Arkhangelskaya oblast", "Amurskaya oblast", "Irkutiskaya oblast", "Khabarovskiy kray", "KabardinoBalkarskaya Respublika", "SanktPeterburg", "Chuvashskaya Respublika", "Yevreyskaya avtonomnaya oblast", "Smolenskaya oblast", "Tulskaya oblast", "Tambovskaya oblast", "Altay"]
+    },
+    "Albania": {
+        "code": "AL",
+        "name": "Albania",
+        "subdivisions": ["Lezh", "Dibr", "Mallakastr", "Malsi e Madhe", "Tepelen", "Shkodr", "Kuks", "Kruj", "Kurbin", "Lushnj", "Berat", "Skrapar", "Kuov", "Devoll", "Kor", "Durrs", "Kolonj", "Prmet", "Vlor", "Librazhd", "Mirdit", "Delvin", "Gramsh", "Mat", "Bulqiz", "Has", "Kavaj", "Tropoj", "Elbasan", "Gjirokastr", "Fier", "Puk", "Tiran", "Sarand", "Peqin", "Pogradec"]
+    },
+    "Malta": {
+        "code": "MT",
+        "name": "Malta",
+        "subdivisions": ["Xewkija", "Marsaxlokk", "Attard", "Gira", "Garb", "San Lawrenz", "Piet", "urrieq", "Qormi", "Birkirkara", "Fgura", "Siiewi", "Mqabba", "Sannat", "Xagra", "Ta Xbiex", "Mosta", "Melliea", "Qrendi", "Bormla", "Msida", "Xgajra", "Kalkara", "Birgu", "Gajnsielem", "abbar", "Floriana", "Pembroke", "Qala", "Kerem", "Munxar", "Nadur", "Marr", "Gaxaq", "Gudja", "Tarxien", "amrun", "Santa Venera", "ebbu Malta", "Rabat Malta", "Paola", "Iklin", "Rabat Gawdex", "Kirkop", "Marsa", "San Pawl ilBaar", "Valletta", "Luqa", "ejtun", "Safi", "Fontana", "San iljan", "Swieqi", "Birebbua", "ebbu Gawdex", "Dingli", "Gargur", "Gasri", "Naxxar", "Isla", "Lija", "Mtarfa", "Santa Luija", "Marsaskala", "Mdina", "Balzan", "San wann", "Sliema"]
+    },
+    "Micronesia Federated States of": {
+        "code": "FM",
+        "name": "Micronesia Federated States of",
+        "subdivisions": ["Pohnpei", "Kosrae", "Chuuk", "Yap"]
+    },
+    "Finland": {
+        "code": "FI",
+        "name": "Finland",
+        "subdivisions": ["KeskiSuomi", "Ahvenanmaan maakunta", "Lappi", "Kymenlaakso", "Uusimaa", "KantaHme", "Kainuu", "EtelKarjala", "KeskiPohjanmaa", "VarsinaisSuomi", "EtelSavo", "Satakunta", "EtelPohjanmaa", "Pirkanmaa", "PohjoisPohjanmaa", "PijtHme", "PohjoisKarjala", "Pohjanmaa", "PohjoisSavo"]
+    },
+    "Kenya": {
+        "code": "KE",
+        "name": "Kenya",
+        "subdivisions": ["Coast", "Western Magharibi", "NorthEastern Kaskazini Mashariki", "Eastern", "Central", "Nairobi Municipality", "Rift Valley"]
+    },
+    "Mozambique": {
+        "code": "MZ",
+        "name": "Mozambique",
+        "subdivisions": ["Zambezia", "Niassa", "Manica", "Numpula", "Inhambane", "Maputo", "Maputo city", "Gaza", "Sofala", "Cabo Delgado", "Tete"]
+    },
+    "Tonga": {
+        "code": "TO",
+        "name": "Tonga",
+        "subdivisions": ["Eua", "Haapai", "Niuas", "Tongatapu", "Vavau"]
+    },
+    "Togo": {
+        "code": "TG",
+        "name": "Togo",
+        "subdivisions": ["Rgion des Plateaux", "Rgion du Centre", "Rgion de la Kara", "Rgion Maritime", "Rgion des Savannes"]
+    },
+    "Grenada": {
+        "code": "GD",
+        "name": "Grenada",
+        "subdivisions": ["Saint Andrew", "Saint George", "Saint Patrick", "Saint John", "Southern Grenadine Islands", "Saint Mark", "Saint David"]
+    },
+    "Central African Republic": {
+        "code": "CF",
+        "name": "Central African Republic",
+        "subdivisions": ["Vakaga", "HauteSangha  MambrKad", "OmbellaMpoko", "NanaMambr", "HautMbomou", "KmoGribingui", "Gribingui", "BaminguiBangoran", "Bangui", "Lobaye", "Ouham", "Mbomou", "OuhamPend", "Sangha", "BasseKotto", "Ouaka", "HauteKotto"]
+    },
+    "Argentina": {
+        "code": "AR",
+        "name": "Argentina",
+        "subdivisions": ["Neuquen", "Chaco", "Santa Fe", "Santiago del Estero", "La Pampa", "Formosa", "Jujuy", "Cordoba", "Tierra del Fuego", "Catamarca", "Corrientes", "San Luis", "Salta", "Buenos Aires", "Ciudad Autnoma de Buenos Aires", "Santa Cruz", "Rio Negro", "San Juan", "Misiones", "Entre Rios", "Chubut", "Tucuman", "Mendoza"]
+    },
+    "Cyprus": {
+        "code": "CY",
+        "name": "Cyprus",
+        "subdivisions": ["Ammchostos", "Lemess", "Pfos", "Lrnaka", "Lefkosa", "Kerneia"]
+    },
+    "United Kingdom": {
+        "code": "GB",
+        "name": "United Kingdom",
+        "subdivisions": ["Norfolk", "Devon", "Calderdale", "Vale of Glamorgan", "Birmingham", "Flintshire", "Telford and Wrekin", "Penybont ar Ogwr", "Cookstown", "Knowsley", "Castellnedd Port Talbot", "Brighton and Hove", "Caerdydd", "Surrey", "Kensington and Chelsea", "Bromley", "Rotherham", "Rochdale", "Cheshire East", "Dumfries and Galloway", "Fife", "Edinburgh", "Banbridge", "Islington", "Peterborough", "Newtownabbey", "Solihull", "Rutland", "East Sussex", "West Berkshire", "Nottinghamshire", "North Somerset", "Moyle", "Wigan", "West Lothian", "Pembrokeshire", "Omagh", "Slough", "Richmond upon Thames", "East Lothian", "Barnet", "Lewisham", "Cumbria", "Sir Ceredigion", "Croydon", " The", "Brent", "Sir Benfro", "United Kingdom", "SouthendonSea", "Swindon", "Redcar and Cleveland", "Torbay", "Gloucestershire", "Moray", "Bath and North East Somerset", "Scotland", "East Renfrewshire", "Newham", "Scottish Borders", "Hackney", "Sir Gaerfyrddin", "Armagh", "Merthyr Tydfil", "South Ayrshire", "Sunderland", "Portsmouth", "Clackmannanshire", "Bolton", "East Riding of Yorkshire", "Bournemouth", "Westminster", "Thurrock", "Leicestershire", "Northern Ireland", "Antrim", "North Tyneside", "North Yorkshire", "Staffordshire", "South Gloucestershire", "Newcastle upon Tyne", "Kingston upon Thames", "North Down", "Nottingham", "North Lanarkshire", "Warrington", "North Ayrshire", "Manchester", "Warwickshire", "Hillingdon", "Isle of Anglesey", " Cynon", "Derby", "Larne", "Poole", "England and Wales", "Stockport", "Abertawe", "Buckinghamshire", "Carrickfergus", "England", "Kirklees", "Sir y Fflint", "Sir Fynwy", "Oldham", "Isle of Wight", "Southwark", "StokeonTrent", "Powys", "Falkirk", "Wrexham", "Dundee City", "North Lincolnshire", "Lincolnshire", "Bury", "Lancashire", "Sir Ynys Mn", "Rhondda", "Angus", "Ceredigion", "Walsall", "Caerphilly", "Leeds", "Derbyshire", "East Ayrshire", "Bro Morgannwg", "Newry and Mourne", "Hartlepool", "Doncaster", "Shropshire", "Wrecsam", "Blaenau Gwent", "Conwy", "Hounslow", "Camden", "Belfast", "Ards", "Redbridge", "Renfrewshire", "Dudley", "Kingston upon Hull", "North East Lincolnshire", "Carmarthenshire", "Sandwell", "Plymouth", " County", "Merton", "St Helens", "Coventry", "Casnewydd", "Bexley", "Derry", "Reading", "Central Bedfordshire", "Havering", "Hampshire", "Caerffili", "Northamptonshire", "Monmouthshire", "Waltham Forest", "South Tyneside", "Milton Keynes", "Bradford", "Northumberland", "Windsor and Maidenhead", "York", "Oxfordshire", " City of", "Glasgow City", "Limavady", "Dorset", "Hammersmith and Fulham", "Middlesbrough", "StocktononTees", "Ealing", "Merthyr Tudful", "Wales", "Somerset", "Dungannon and South Tyrone", "Halton", "Aberdeen City", "Wokingham", "Southampton", "South Lanarkshire", "East Dunbartonshire", "Enfield", "Cambridgeshire", "Suffolk", "Blackpool", "Haringey", "Great Britain", "Medway", "Hertfordshire", "Strabane", "Cardiff", "Luton", "West Dunbartonshire", "Sheffield", "Midlothian", "Wirral", "Bridgend", "Argyll and Bute", "Wandsworth", "Newport", "Bedford", "Perth and Kinross", "Magherafelt", "Cornwall", "Essex", "Torfaen", "Swansea", "Leicester", "Kent", "Sefton", "Denbighshire", "Barnsley", "Herefordshire", "Aberdeenshire", "Wolverhampton", "London", "Darlington", "West Sussex", "Bracknell Forest", "Coleraine", "Wakefield", "Inverclyde", "Sutton", "Gwynedd", "Down", "Lisburn", "Cheshire West and Chester", "Orkney Islands", "Greenwich", "Ballymoney", "Craigavon", "Lambeth", "Salford", "Taf", "Durham", "Barking and Dagenham", "Blackburn with Darwen", "Trafford", "Ballymena", "Tower Hamlets", "Bristol", "Shetland Islands", " Taff", "Neath Port Talbot", "Harrow", "Worcestershire", "Highland", "Castlereagh", "Tameside", "Sir Ddinbych", "Liverpool", "Eilean Siar", "Stirling", "Fermanagh", "Gateshead"]
+    },
+    "Uzbekistan": {
+        "code": "UZ",
+        "name": "Uzbekistan",
+        "subdivisions": ["Qoraqalpogiston Respublikasi", "Xorazm", "Samarqand", "Jizzax", "Qashqadaryo", "Navoiy", "Toshkent", "Namangan", "Andijon", "Surxondaryo", "Buxoro", "Sirdaryo", "Fargona"]
+    },
+    "Madagascar": {
+        "code": "MG",
+        "name": "Madagascar",
+        "subdivisions": ["Toamasina", "Antananarivo", "Fianarantsoa", "Antsiranana", "Mahajanga", "Toliara"]
+    },
+    "Belize": {
+        "code": "BZ",
+        "name": "Belize",
+        "subdivisions": ["Corozal", "Cayo", "Stann Creek", "Orange Walk", "Toledo", "Belize"]
+    },
+    "Angola": {
+        "code": "AO",
+        "name": "Angola",
+        "subdivisions": ["Cabinda", "Uge", "Bi", "Cunene", "Huambo", "Moxico", "Zaire", "CuandoCubango", "Cuanza Norte", "Bengo", "Hula", "Malange", "Cuanza Sul", "Lunda Norte", "Lunda Sul", "Benguela", "Luanda", "Namibe"]
+    },
+    "Monaco": {
+        "code": "MC",
+        "name": "Monaco",
+        "subdivisions": ["Splugues", "La Gare", "La Condamine", "La Source", "Malbousquet", "MonteCarlo", "Moneghetti", "La Colle", "Fontvieille", "Larvotto", "PortHercule", "SaintRoman", "MonacoVille", "SainteDvote", "Jardin Exotique", "Vallon de la Rousse", "Moulins"]
+    },
+    "Jordan": {
+        "code": "JO",
+        "name": "Jordan",
+        "subdivisions": ["Al Balq", "Irbid", "Ammn Al Aimah", "Man", "Al Mafraq", "Jarash", "A aflah", "Az Zarq", "Al Aqabah", "Mdab", "Ajln", "Al Karak"]
+    },
+    "Kyrgyzstan": {
+        "code": "KG",
+        "name": "Kyrgyzstan",
+        "subdivisions": ["JalalAbad", "Bishkek", "Naryn", "YsykKl", "Batken", "Talas", "Osh", "Ch"]
+    },
+    "Djibouti": {
+        "code": "DJ",
+        "name": "Djibouti",
+        "subdivisions": ["Arta", "Ali Sabieh", "Tadjourah", "Obock", "Djibouti", "Dikhil"]
+    },
+    "Czech Republic": {
+        "code": "CZ",
+        "name": "Czech Republic",
+        "subdivisions": ["Nov Jin", "Kladno", "Koln", "Litomice", "esk Lpa", "Zlnsk kraj", "Frdek Mstek", "Bruntl", "Pardubice", "Dn", "Jihomoravsk kraj", "Uhersk Hradit", "Chomutov", "Moravskoslezsk kraj", "Beneov", "Praha vchod", "Psek", "Blansko", "Prachatice", "Tachov", "Liberec", "Pbram", "Olomouck kraj", "Vysoina", "Strakonice", "Louny", "Ostrava msto", "Jihlava", "esk Budjovice", "dr nad Szavou", "Jindichv Hradec", "Vykov", "Krlovhradeck kraj", "Pardubick kraj", "st nad Orlic", "Plze sever", "Praha zpad", "Jin", "Znojmo", "Svitavy", "Vsetn", "Karlovy Vary", "Most", "Rychnov nad Knnou", "st nad Labem", "Brnovenkov", "Cheb", "Prostjov", "Brnomsto", "Havlkv Brod", "Jablonec nad Nisou", "Mlnk", "Domalice", "Nchod", "Zln", "Stedoesk kraj", "Praha ", "Semily", "Trutnov", "Klatovy", "Tbor", "Teplice", "Karvin", "Hodonn", "Beclav", "Libereck kraj", "Krom", "Nymburk", "Teb", "Sokolov", "Jesenk", "Plzesk kraj", "Hradec Krlov", " hlavn msto", "Beroun", "steck kraj", "Rokycany", "Pelhimov", "esk Krumlov", "Karlovarsk kraj", "Mlad Boleslav", "Plze jih", "Olomouc", "Opava", "Jihoesk kraj", "Rakovnk", "Praha", "Kutn Hora", "Perov", "Plze msto", "Chrudim", "umperk"]
+    },
+    "Montenegro": {
+        "code": "ME",
+        "name": "Montenegro",
+        "subdivisions": ["Tivat", "Pluine", "Podgorica", "Niki", "Mojkovac", "Ulcinj", "Andrijevica", "Danilovgrad", "HercegNovi", "Kotor", "Plav", "Bar", "Pljevlja", "avnik", "Budva", "Bijelo Polje", "abljak", "Kolain", "Berane", "Roaje", "Cetinje"]
+    },
+    "Iceland": {
+        "code": "IS",
+        "name": "Iceland",
+        "subdivisions": ["Suurnes", "Norurland eystra", "Austurland", "Norurland vestra", "Suurland", "Vesturland", "Hfuborgarsvi", "Vestfirir", "Reykjavk"]
+    },
+    "Bahrain": {
+        "code": "BH",
+        "name": "Bahrain",
+        "subdivisions": ["Al Muarraq", "Ash Shamlyah", "Al Wus", "Al Manmah Al imah", "Al Janbyah"]
+    },
+    "El Salvador": {
+        "code": "SV",
+        "name": "El Salvador",
+        "subdivisions": ["Santa Ana", "Cuscatln", "Chalatenango", "San Salvador", "Usulutn", "La Paz", "Sonsonate", "Ahuachapn", "Morazn", "San Miguel", "La Libertad", "La Unin", "Cabaas", "San Vicente"]
+    },
+    "Nigeria": {
+        "code": "NG",
+        "name": "Nigeria",
+        "subdivisions": ["Zamfara", "Kano", "Gombe", "Kwara", "Bayelsa", "Plateau", "Adamawa", "Kaduna", "Akwa Ibom", "Yobe", "Benue", "Rivers", "Ebonyi", "Ondo", "Kebbi", "Taraba", "Ekiti", "Abia", "Katsina", "Niger", "Enugu", "Bauchi", "Lagos", "Abuja Capital Territory", "Edo", "Sokoto", "Oyo", "Imo", "Ogun", "Delta", "Nassarawa", "Jigawa", "Cross River", "Borno", "Kogi", "Osun", "Anambra"]
+    },
+    "Belarus": {
+        "code": "BY",
+        "name": "Belarus",
+        "subdivisions": ["Brsckaja voblasc", "Homelskaja voblasc", "Minskaja voblasc", "Vicebskaja voblasc", "Mahiluskaja voblasc", "Horad Minsk", "Hrodzenskaja voblasc"]
+    },
+    "Uruguay": {
+        "code": "UY",
+        "name": "Uruguay",
+        "subdivisions": ["Colonia", "Lavalleja", "Soriano", "Salto", "Treinta y Tres", "Flores", "Cerro Largo", "Montevideo", "Durazno", "Canelones", "Artigas", "Rocha", "Maldonado", "San Jos", "Paysand", "Tacuaremb", "Florida", "Ro Negro", "Rivera"]
+    },
+    "Sweden": {
+        "code": "SE",
+        "name": "Sweden",
+        "subdivisions": ["Uppsala ln", "Vsterbottens ln", "rebro ln", "Blekinge ln", "Jnkpings ln", "Kalmar ln", "Skne ln", "Vrmlands ln", "Gotlands ln", "Vstra Gtalands ln", "stergtlands ln", "Stockholms ln", "Dalarnas ln", "Jmtlands ln", "Vsternorrlands ln", "Sdermanlands ln", "Hallands ln", "Vstmanlands ln", "Kronobergs ln", "Gvleborgs ln", "Norrbottens ln"]
+    },
+    "Morocco": {
+        "code": "MA",
+        "name": "Morocco",
+        "subdivisions": ["Ouarzazate", "Figuig", "Taza", "TadlaAzilal", "Khouribga", "TangerTtouan", "Al Hocema", "SousMassaDraa", "Errachidia", "Nador", "MarrakechTensiftAl Haouz", "Azilal", "Oued ed Dahab EH", "InezganeAit Melloul", "Settat", "FsBoulemane", "MarrakechMenara", "Khemisaet", "AssaZag", "Larache", "Boujdour EH", "Ttouan", "Khenifra", "Jrada", "ChaouiaOuardigha", "Berkane", "Mekns", "Rabat", "Tiznit", "Moulay Yacoub", "GuelmimEs Smara", "RabatSalZemmourZaer", "AgadirIdaOutanane", "Layoune EH", "Aousserd", "Mohammadia", "TangerAssilah", "Kelaat es Sraghna", "SkhirateTmara", "MeknsTafilalet", "Beni Mellal", "ChtoukaAit Baha", "Casablanca Dar el Beda", "LOriental", "Sal", "Mdiouna", "Nouaceur", "Sefrou", "Oued ed DahabLagouira", "OujdaAngad", "TanTan", "Essaouira", "TazaAl HoceimaTaounate", "El Hajeb", "GharbChrardaBeni Hssen", "FsDarDbibegh", "Boulemane", "Taounate", "Safi", "LayouneBoujdourSakia el Hamra", "Es Smara EH", "Sidi Youssef Ben Ali", "Sidl Kacem", "Chefchaouen", "Zagora", "Tata", "MarrakechMedina", "Knitra", "Ifrane", "Taroudant", "FahsBeni Makada", "DoukhalaAbda", "Grand Casablanca", "Chichaoua", "El Jadida", "Al Haouz", "Taourirt", "Guelmim", "Ben Slimane"]
+    },
+    "Eritrea": {
+        "code": "ER",
+        "name": "Eritrea",
+        "subdivisions": ["Ansab", "Al Awsa", "Al Janb", "Janb al Bar al Amar", "Shiml al Bar al Amar", "QshBarkah"]
+    },
+    "Guatemala": {
+        "code": "GT",
+        "name": "Guatemala",
+        "subdivisions": ["Sacatepquez", "Santa Rosa", "Jalapa", "Quetzaltenango", "Guatemala", "Retalhuleu", "Escuintla", "Alta Verapaz", "Baja Verapaz", "Chiquimula", "Totonicapn", "Jutiapa", "Zacapa", "Izabal", "Solol", "Petn", "Quich", "Suchitepquez", "Huehuetenango", "El Progreso", "San Marcos", "Chimaltenango"]
+    },
+    "Croatia": {
+        "code": "HR",
+        "name": "Croatia",
+        "subdivisions": ["Karlovaka upanija", "Grad Zagreb", "Sisakomoslavaka upanija", "Primorskogoranska upanija", "Zadarska upanija", "Splitskodalmatinska upanija", "Osjekobaranjska upanija", "Poekoslavonska upanija", "Istarska upanija", "Virovitikopodravska upanija", "Koprivnikokrievaka upanija", "Varadinska upanija", "Brodskoposavska upanija", "Vukovarskosrijemska upanija", "Bjelovarskobilogorska upanija", "Likosenjska upanija", "Dubrovakoneretvanska upanija", "Meimurska upanija", "Zagrebaka upanija", "Krapinskozagorska upanija", "ibenskokninska upanija"]
+    },
+    "Serbia": {
+        "code": "RS",
+        "name": "Serbia",
+        "subdivisions": ["Niavski okrug", "KosovskoMitrovaki okrug", "KosovskoPomoravski okrug", "Junobaki okrug", "Kosovski okrug", "Zapadnobaki okrug", "Rasinski okrug", "Vojvodina", "Severnobaki okrug", "Severnobanatski okrug", "Topliki okrug", "Borski okrug", "Pinjski okrug", "Podunavski okrug", "Beograd", "Prizrenski okrug", "Peki okrug", "Moraviki okrug", "Zlatiborski okrug", "Srednjebanatski okrug", "umadijski okrug", "Pirotski okrug", "Raki okrug", "Kolubarski okrug", "Pomoravski okrug", "Jablaniki okrug", "Branievski okrug", "Sremski okrug", "Junobanatski okrug", "Mavanski okrug", "KosovoMetohija", "Zajearski okrug"]
+    },
+    "Australia": {
+        "code": "AU",
+        "name": "Australia",
+        "subdivisions": ["Australian Capital Territory", "South Australia", "Western Australia", "New South Wales", "Tasmania", "Queensland", "Victoria", "Northern Territory"]
+    },
+    "Ukraine": {
+        "code": "UA",
+        "name": "Ukraine",
+        "subdivisions": ["Vinnytska Oblast", "Volynska Oblast", "Kyvska miska rada", "Sums ka Oblast", "IvanoFrankivska Oblast", "Ternopilska Oblast", "Kharkivska Oblast", "Rivnenska Oblast", "Respublika Krym", "Chernihivska Oblast", "Sevastopol", "Poltavska Oblast", "Chernivetska Oblast", "Donetska Oblast", "Zhytomyrska Oblast", "Mykolavska Oblast", "Dnipropetrovska Oblast", "Kirovohradska Oblast", "Khmelnytska Oblast", "Cherkaska Oblast", "Odeska Oblast", "Khersonska Oblast", "Luhanska Oblast", "Kyvska Oblast", "Zaporizka Oblast", "Zakarpatska Oblast", "Lvivska Oblast"]
+    },
+    "Paraguay": {
+        "code": "PY",
+        "name": "Paraguay",
+        "subdivisions": ["Caazap", "Itapa", "Paraguar", "Alto Paran", "Caaguaz", "eembuc", "Amambay", "San Pedro", "Guair", "Asuncin", "Cordillera", "Central", "Boquern", "Presidente Hayes", "Concepcin", "Misiones", "Alto Paraguay", "Canindey"]
+    },
+    "Lao Peoples Democratic Republic": {
+        "code": "LA",
+        "name": "Lao Peoples Democratic Republic",
+        "subdivisions": ["Vientiane", "Xkong", "Attapu", "Boko", "Louang Namtha", "Bolikhamxai", "Xaignabouli", "Champasak", "Houaphan", "Khammouan", "Xiangkhoang", "Xiasmboun", "Louangphabang", "Oudmxai", "Salavan", "Phngsali", "Savannakht"]
+    },
+    "Equatorial Guinea": {
+        "code": "GQ",
+        "name": "Equatorial Guinea",
+        "subdivisions": ["Regin Continental", "Litoral", "Annobn", "Bioko Sur", "Regin Insular", "Bioko Norte", "WeleNzas", "Centro Sur", "KiNtem"]
+    },
+    "Switzerland": {
+        "code": "CH",
+        "name": "Switzerland",
+        "subdivisions": ["Ticino", "Obwalden", "Neuchtel", "Graubnden", "Appenzell Innerrhoden", "Genve", "Sankt Gallen", "Uri", "Schaffhausen", "Schwyz", "Vaud", "Fribourg", "Valais", "Solothurn", "Bern", "Zug", "BaselLandschaft", "Nidwalden", "Jura", "Appenzell Ausserrhoden", "Luzern", "Glarus", "Zrich", "BaselStadt", "Thurgau", "Aargau"]
+    },
+    "Latvia": {
+        "code": "LV",
+        "name": "Latvia",
+        "subdivisions": ["Ludzas novads", "Dundagas novads", "Ilkstes novads", "Gulbenes novads", "Jkabpils novads", "Apes novads", "Priekules novads", "rgu novads", "Rojas novads", "Brocnu novads", "Ciblas novads", "Siguldas novads", "Grobias novads", "Mrupes novads", "Alsungas novads", "Ikiles novads", "Baltinavas novads", "Csu novads", "Ventspils", "Varaknu novads", "Valmiera", "Aknstes novads", "Smiltenes novads", "Durbes novads", "Kandavas novads", "Sjas novads", "Ventspils novads", "Rjienas novads", "Jkabpils", "Babtes novads", "Liepja", "Rugju novads", "Jaunpils novads", "Lgatnes novads", "Rucavas novads", "Nauknu novads", "Salacgrvas novads", "Saulkrastu novads", "Stopiu novads", "Dagdas novads", "Riebiu novads", "Daugavpils novads", "eguma novads", "Lvnu novads", "Alojas novads", "Daugavpils", "Rzekne", "Ozolnieku novads", "Garkalnes novads", "dau novads", "Cesvaines novads", "Tukuma novads", "Salas novads", "Amatas novads", "Ncas novads", "Alksnes novads", "Skrundas novads", "Vecumnieku novads", "Preiu novads", "Rzeknes novads", "Lielvrdes novads", "Rundles novads", "Jaunpiebalgas novads", "Vinu novads", "Neretas novads", "Zilupes novads", "Krustpils novads", "Baldones novads", "Mrsraga novads", "Trvetes novads", "Krimuldas novads", "Viakas novads", "Strenu novads", "Burtnieku novads", "Raunas novads", "Lubnas novads", "Saldus novads", "Carnikavas novads", "Pvilostas novads", "Mlpils novads", "Madonas novads", "Kokneses novads", "Jelgava", "Skrveru novads", "Talsu novads", "Ropau novads", "Krsavas novads", "Jrmala", "Vrkavas novads", "ekavas novads", "Ogres novads", "Krslavas novads", "Salaspils novads", "Auces novads", "Balvu novads", "Aizkraukles novads", "Kuldgas novads", "Priekuu novads", "Mazsalacas novads", "Paviu novads", "Viestes novads", "Iecavas novads", "Olaines novads", "Jaunjelgavas novads", "Jelgavas novads", "Aizputes novads", "Vecpiebalgas novads", "Valkas novads", "Vaiodes novads", "Kocnu novads", "Aglonas novads", "Inukalna novads", "Rga", "Engures novads", "Bevernas novads", "Prgaujas novads", "Limbau novads", "Bauskas novads", "Dobeles novads"]
+    },
+    "Bonaire Sint Eustatius and Saba": {
+        "code": "BQ",
+        "name": "Bonaire Sint Eustatius and Saba",
+        "subdivisions": ["Bonaire", "Sint Eustatius", "Saba"]
+    },
+    "Belgium": {
+        "code": "BE",
+        "name": "Belgium",
+        "subdivisions": ["OostVlaanderen", " Rgion de", "Lige", "Antwerpen", "VlaamsBrabant", "Limburg", "BruxellesCapitale", "Brabant wallon", "Luxembourg", "Brussels Hoofdstedelijk Gewest", "Namur", " Rgion", "Hainaut", "Vlaams Gewest", "wallonne", "WestVlaanderen"]
+    },
+    "Chad": {
+        "code": "TD",
+        "name": "Chad",
+        "subdivisions": ["Al Bahah", "Lqn ash Sharq", "Waddy", "Madnat Injamn", "Qr", "Shr al Awsa", "Sl", "Tibast", "Innd", "Salmt", "Wd Fr", "Lqn al Gharb", "ajjar Lams", "Mndl", "Bahr al Ghazl", "Knim", "Brk", "Tnjil", "My Kbb ash Sharq", "Al Buhayrah", "Shr Bqirm", "My Kbb al Gharb"]
+    },
+    "Tuvalu": {
+        "code": "TV",
+        "name": "Tuvalu",
+        "subdivisions": ["Nui", "Nukufetau", "Nukulaelae", "Niutao", "Funafuti", "Nanumanga", "Vaitupu", "Nanumea"]
+    },
+    "Guyana": {
+        "code": "GY",
+        "name": "Guyana",
+        "subdivisions": ["Essequibo IslandsWest Demerara", "Upper DemeraraBerbice", "DemeraraMahaica", "Upper TakutuUpper Essequibo", "CuyuniMazaruni", "East BerbiceCorentyne", "BarimaWaini", "MahaicaBerbice", "PomeroonSupenaam", "PotaroSiparuni"]
+    },
+    "Moldova Republic of": {
+        "code": "MD",
+        "name": "Moldova Republic of",
+        "subdivisions": [" unitatea teritorial din", "Ialoveni", "Criuleni", "Sngerei", "Cueni", "oldneti", "Cahul", "Dubsari", "Hnceti", "Anenii Noi", "Clrai", "Drochia", "Rezina", "Gguzia", "Leova", "Ungheni", "Edine", "Orhei", "Cantemir", "Teleneti", "Tighina", "Streni", "Taraclia", "Soroca", "Bli", " Unitatea teritorial autonom", "tefan Vod", "Ocnia", "Chiinu", "Stnga Nistrului", "Basarabeasca", "Floreti", "Rcani", "Briceni", "Cimilia", "Dondueni", "Glodeni", "Fleti", "Nisporeni"]
+    },
+    "Bahamas": {
+        "code": "BS",
+        "name": "Bahamas",
+        "subdivisions": ["Moores Island", "East Grand Bahama", "Exuma", "Grand Cay", "North Andros", "Ragged Island", "Central Abaco", "Crooked Island and Long Cay", "Berry Islands", "San Salvador", "Rum Cay", "Cat Island", "Central Andros", "Harbour Island", "Mayaguana", "Long Island", "North Eleuthera", "Spanish Wells", "Central Eleuthera", "City of Freeport", "Acklins", "Inagua", "South Abaco", "Black Point", "North Abaco", "Hope Town", "West Grand Bahama", "Bimini", "Mangrove Cay", "South Eleuthera", "South Andros"]
+    },
+    "Qatar": {
+        "code": "QA",
+        "name": "Qatar",
+        "subdivisions": ["Ar Rayyan", "Umm Salal", "Ad Dawhah", "Al Wakrah", "Al Khawr wa adh Dhakhrah", "Ash Shamal", "Az Zayin"]
+    },
+    "Dominica": {
+        "code": "DM",
+        "name": "Dominica",
+        "subdivisions": ["Saint Andrew", "Saint Peter", "Saint George", "Saint Joseph", "Saint Patrick", "Saint John", "Saint Luke", "Saint Mark", "Saint Paul", "Saint David"]
+    },
+    "Congo": {
+        "code": "CG",
+        "name": "Congo",
+        "subdivisions": ["Niari", "Lkoumou", "Kouilou", "Bouenza", "Likouala", "Cuvette", "Pool", "Plateaux", "Brazzaville", "Sangha", "CuvetteOuest"]
+    },
+    "Swaziland": {
+        "code": "SZ",
+        "name": "Swaziland",
+        "subdivisions": ["Shiselweni", "Manzini", "Hhohho", "Lubombo"]
+    },
+    "Saint Kitts and Nevis": {
+        "code": "KN",
+        "name": "Saint Kitts and Nevis",
+        "subdivisions": ["Saint George Basseterre", "Saint Kitts", "Trinity Palmetto Point", "Saint John Figtree", "Saint Thomas Lowland", "Nevis", "Saint Thomas Middle Island", "Saint James Windward", "Saint Paul Charlestown", "Saint George Gingerland", "Christ Church Nichola Town", "Saint Paul Capisterre", "Saint Anne Sandy Point", "Saint Peter Basseterre", "Saint John Capisterre", "Saint Mary Cayon"]
+    },
+    "Niger": {
+        "code": "NE",
+        "name": "Niger",
+        "subdivisions": ["Maradi", "Tahoua", "Zinder", "Agadez", "Tillabri", "Dosso", "Niamey", "Diffa"]
+    },
+    "Liechtenstein": {
+        "code": "LI",
+        "name": "Liechtenstein",
+        "subdivisions": ["Ruggell", "Triesenberg", "Schellenberg", "Gamprin", "Balzers", "Schaan", "Mauren", "Vaduz", "Triesen", "Planken", "Eschen"]
+    },
+    "Ethiopia": {
+        "code": "ET",
+        "name": "Ethiopia",
+        "subdivisions": ["ds beba", "Oromya", "Sumal", "mara", "YeDebub Bihroch Bihreseboch na Hizboch", "Dir Dawa", "Gambla Hizboch", "far", "Hrer Hizb", "Tigray", "Bnshangul Gumuz"]
+    },
+    "Senegal": {
+        "code": "SN",
+        "name": "Senegal",
+        "subdivisions": ["Fatick", "Louga", "Kaolack", "Dakar", "Kolda", "Matam", "Kaffrine", "Sdhiou", "SaintLouis", "Tambacounda", "Ziguinchor", "Diourbel", "Kdougou", "This"]
+    },
+    "Barbados": {
+        "code": "BB",
+        "name": "Barbados",
+        "subdivisions": ["Saint Andrew", "Saint Thomas", "Saint Peter", "Saint George", "Saint Joseph", "Saint Philip", "Saint Lucy", "Saint John", "Saint Michael", "Saint James", "Christ Church"]
+    },
+    "Zambia": {
+        "code": "ZM",
+        "name": "Zambia",
+        "subdivisions": ["Southern Zambia", "Copperbelt", "Eastern", "Lusaka", "Central", "Luapula", "Western", "NorthWestern", "Northern"]
+    },
+    "Nicaragua": {
+        "code": "NI",
+        "name": "Nicaragua",
+        "subdivisions": ["Carazo", "Chontales", "Rivas", "Estel", "Granada", "Managua", "Masaya", "Boaco", "Matagalpa", "Ro San Juan", "Jinotega", "Chinandega", "Atlntico Sur", "Nueva Segovia", "Madriz", "Atlntico Norte", "Len"]
+    },
+    "Azerbaijan": {
+        "code": "AZ",
+        "name": "Azerbaijan",
+        "subdivisions": ["amax", "Yardml", "Xocavnd", "Bilsuvar", "irvan", "Sabirabad", "Aberon", "Sdrk", "Ada", "Qbl", "Xocal", "smayll", "Tovuz", "Yevlax", "Lan", "abran", "Goranboy", "Brd", "Qax", "Beylqan", "Gnc", "Xz", "Masall", "Astafa", "Qazax", "Ordubad", "Trtr", "Naftalan", "ua", "Fzuli", "Neftala", "Quba", "Lerik", "Zngilan", "Asu", "Siyzn", "Hacqabul", "Bak", "Adam", "mili", "Gdby", "Kngrli", "mkir", "Astara", "Lnkran", "ahbuz", "Culfa", "rur", "Zaqatala", "Ucar", "ki", "Naxvan", "Ouz", "Qobustan", "Mingevir", "Xamaz", "Salyan", "Babk", "Zrdab", "Krdmir", "Samux", "Daksn", "Sumqayt", "Klbcr", "Gygl", "Saatl", "Balakn", "Cbrayl", "Xankndi", "Qubadl", "Acabdi", "Gyay", "Clilabab", "Qusar"]
+    },
+    "Zimbabwe": {
+        "code": "ZW",
+        "name": "Zimbabwe",
+        "subdivisions": ["Harare", "Mashonaland West", "Mashonaland Central", "Matabeleland South", "Matabeleland North", "Manicaland", "Mashonaland East", "Midlands", "Bulawayo", "Masvingo"]
+    },
+    "Brazil": {
+        "code": "BR",
+        "name": "Brazil",
+        "subdivisions": ["Rio Grande do Sul", "Maranho", "Mato Grosso", "Esprito Santo", "Par", "Mato Grosso do Sul", "Pernambuco", "Roraima", "Sergipe", "Paran", "Amap", "Rio Grande do Norte", "So Paulo", "Rondnia", "Paraba", "Fernando de Noronha", "Tocantins", "Gois", "Alagoas", "Amazonas", "Bahia", "Minas Gerais", "Distrito Federal", "Santa Catarina", "Cear", "Rio de Janeiro", "Acre", "Piau"]
+    },
+    "Brunei Darussalam": {
+        "code": "BN",
+        "name": "Brunei Darussalam",
+        "subdivisions": ["BruneiMuara", "Temburong", "Belait", "Tutong"]
+    },
+    "Kazakhstan": {
+        "code": "KZ",
+        "name": "Kazakhstan",
+        "subdivisions": ["Mangghysta oblysy", "Batys Quzaqstan oblysy", "Qyzylorda oblysy", "Ongtstik Qazaqstan oblysy", "Aqmola oblysy", "Qostanay oblysy", "Aqtbe oblysy", "Pavlodar oblysy", "Qaraghandy oblysy", "Atyra oblysy", "Shyghys Qazaqstan oblysy", "Almaty", "Almaty oblysy", "Soltstik Quzaqstan oblysy", "Zhambyl oblysy", "Astana"]
+    },
+    "Vanuatu": {
+        "code": "VU",
+        "name": "Vanuatu",
+        "subdivisions": ["Malampa", "Torba", "Pnama", "Sanma", "Tafa", "Shfa"]
+    },
+    "United States": {
+        "code": "US",
+        "name": "United States",
+        "subdivisions": ["Iowa", "South Dakota", "Utah", "North Carolina", "Virginia", "Oklahoma", "Montana", "Puerto Rico", "Virgin Islands", "Maine", "Maryland", "Florida", "Nevada", "New Hampshire", "Connecticut", "Georgia", "Kentucky", "Pennsylvania", "California", "Michigan", "Minnesota", "United States Minor Outlying Islands", "Tennessee", "Ohio", "Delaware", "American Samoa", "Wyoming", "Mississippi", "Guam", "Massachusetts", "Louisiana", "Colorado", "Vermont", "West Virginia", "New Mexico", "Idaho", "Washington", "Illinois", "Rhode Island", "Nebraska", "District of Columbia", "Arkansas", "Wisconsin", "Texas", "Alabama", "Kansas", "Missouri", "New Jersey", "South Carolina", "Hawaii", "Arizona", "Alaska", "Indiana", "New York", "Oregon", "Northern Mariana Islands", "North Dakota"]
+    },
+    "Cambodia": {
+        "code": "KH",
+        "name": "Cambodia",
+        "subdivisions": ["Krong Pailin", "Krong Preah Sihanouk", "Krachoh", "Taakaev", "Kampong Chhnang", "Prey Veaeng", "Kampong Thom", "Kampot", "Battambang", "Kach Kong", "Krong Kaeb", "Kandal", "Stueng Traeng", "Otdar Mean Chey", "Kampong Cham", "Svaay Rieng", "Banteay Mean Chey", "Pousaat", "Siem Reab", "Rotanak Kiri", "Phnom Penh", "Preah Vihear", "Mondol Kiri", "Kampong Speu"]
+    },
+    "Myanmar": {
+        "code": "MM",
+        "name": "Myanmar",
+        "subdivisions": ["Yangon", "Ayeyarwady", "Kayin", "Kayah", "Kachin", "Mandalay", "Mon", "Bago", "Shan", "Sagaing", "Tanintharyi", "Rakhine", "Magway", "Chin"]
+    },
+    "Lithuania": {
+        "code": "LT",
+        "name": "Lithuania",
+        "subdivisions": ["Klaipdos Apskritis", "Utenos Apskritis", "Panevio Apskritis", "Alytaus Apskritis", "Kauno Apskritis", "Taurags Apskritis", "Marijampols Apskritis", "Teli Apskritis", "Vilniaus Apskritis", "iauli Apskritis"]
+    },
+    "Mongolia": {
+        "code": "MN",
+        "name": "Mongolia",
+        "subdivisions": ["Uvs", "Ulanbaatar", "Selenge", "Tv", "vrhangay", "Hovd", "Darhan uul", "Hentiy", "Dzavhan", "Arhangay", "Bayanhongor", "Dundgovi", "GoviAltay", "mngovi", "GoviSumber", "Bayanlgiy", "Bulgan", "Dornogovi", "Hvsgl", "Orhon", "Shbaatar", "Dornod"]
+    },
+    "Nauru": {
+        "code": "NR",
+        "name": "Nauru",
+        "subdivisions": ["Boe", "Aiwo", "Nibok", "Anabar", "Meneng", "Yaren", "Uaboe", "Ewa", "Denigomodu", "Anetan", "Baiti", "Buada", "Anibare", "Ijuw"]
+    },
+    "Yemen": {
+        "code": "YE",
+        "name": "Yemen",
+        "subdivisions": ["Al Jawf", "Amrn", "Al udaydah", "Dhamr", "Al Mahrah", "Laij", "adah", "Raymah", "Al Mawt", "Al Bay", "Adan", "Marib", "Tizz", "Ad Dli", "aramawt", "Abyn", "ajjah", "Ibb", "Shabwah", "an"]
+    },
+    "Taiwan Province of China": {
+        "code": "TW",
+        "name": "Taiwan Province of China",
+        "subdivisions": ["Chiayi", "Penghu", "Hsinchui City", "Taipei City", "Pingtung", "Taipei", "Chiay City", "Taitung", "Hualien", "Tainan", "Taichung", "Yunlin", "Nantou", "Kaohsiung City", "Kaohsiung", "Keelung City", "Taoyuan", "Ilan", "Hsinchu", "Changhua", "Tainan City", "Taichung City", "Miaoli"]
+    },
+    "Canada": {
+        "code": "CA",
+        "name": "Canada",
+        "subdivisions": ["Saskatchewan", "Quebec", "Nunavut", "Newfoundland and Labrador", "Nova Scotia", "New Brunswick", "British Columbia", "Yukon Territory", "Prince Edward Island", "Alberta", "Northwest Territories", "Manitoba", "Ontario"]
+    },
+    "Burkina Faso": {
+        "code": "BF",
+        "name": "Burkina Faso",
+        "subdivisions": ["Bazga", "Passor", "CentreOuest", "Mouhoun", "CentreNord", "Oubritenga", "Bal", "Sno", "Noumbiel", "Kndougou", "CentreEst", "Centre", "Bam", "SudOuest", "Kossi", "Loroum", "Sissili", "Sahel", "Sanmatenga", "Zoundwogo", "Sourou", "Kourwogo", "Zondoma", "Oudalan", "Cascades", "Sangui", "Banwa", "Tui", "Naouri", "Lraba", "Soum", "Ganzourgou", "Yatenga", "Komondjari", "Boulgou", "Gnagna", "Est", "Ioba", "PlateauCentral", "Poni", "Namentenga", "Koulplogo", "Boulkiemd", "Como", "Tapoa", "HautsBassins", "Kadiogo", "Nord", "Boucle du Mouhoun", "Gourma", "Kompienga", "CentreSud", "Houet", "Yagha", "Bougouriba", "Ziro", "Nayala", "Kouritenga"]
+    },
+    "Honduras": {
+        "code": "HN",
+        "name": "Honduras",
+        "subdivisions": ["Coln", "Choluteca", "Francisco Morazn", "El Paraso", "Comayagua", "Ocotepeque", "Santa Brbara", "Valle", "Intibuc", "Corts", "La Paz", "Lempira", "Gracias a Dios", "Islas de la Baha", "Copn", "Olancho", "Yoro", "Atlntida"]
+    },
+    "Cameroon": {
+        "code": "CM",
+        "name": "Cameroon",
+        "subdivisions": ["West", "North", "SouthWest", "East", "Adamaoua", "NorthWest Cameroon", "Far North", "Littoral", "South", "Centre"]
+    },
+    "Gambia": {
+        "code": "GM",
+        "name": "Gambia",
+        "subdivisions": ["Central River", "North Bank", "Banjul", "Lower River", "Western", "Upper River"]
+    },
+    "Pakistan": {
+        "code": "PK",
+        "name": "Pakistan",
+        "subdivisions": ["Federally Administered Tribal Areas", "Islamabad", "Balochistan", "Azad Kashmir", "Sindh", "GilgitBaltistan", "Khyber Pakhtunkhwa", "Punjab"]
+    },
+    "Tunisia": {
+        "code": "TN",
+        "name": "Tunisia",
+        "subdivisions": ["La Manouba", "Tataouine", "Jendouba", "Siliana", "Ariana", "Medenine", "Kasserine", "Monastir", "Ben Arous", "Gafsa", "Bizerte", "Kebili", "Nabeul", "Sidi Bouzid", "Zaghouan", "Sousse", "Tunis", "Sfax", "Mahdia", "Tozeur", "Gabs", "Kairouan", "Bja", "Le Kef"]
+    },
+    "Bolivia Plurinational State of": {
+        "code": "BO",
+        "name": "Bolivia Plurinational State of",
+        "subdivisions": ["Cochabamba", "Chuquisaca", "Oruro", "El Beni", "Pando", "Santa Cruz", "Tarija", "La Paz", "Potos"]
+    },
+    "Luxembourg": {
+        "code": "LU",
+        "name": "Luxembourg",
+        "subdivisions": ["Luxembourg", "Diekirch", "Grevenmacher"]
+    },
+    "Uganda": {
+        "code": "UG",
+        "name": "Uganda",
+        "subdivisions": ["Amuru", "Kaabong", "Tororo", "Jinja", "Mbarara", "Kabarole", "Manafwa", "Bundibugyo", "Kaliro", "Abim", "Kamuli", "Budaka", "Mayuge", "Western", "Bukwa", "Kumi", "Mubende", "Bushenyi", "Nakaseke", "Dokolo", "Bukedea", "Amolatar", "Kamwenge", "Kisoro", "Kapchorwa", "Koboko", "Kiruhura", "Luwero", "Rukungiri", "Apac", "Moroto", "Kibaale", "Amuria", "Iganga", "Kabale", "Soroti", "Kyenjojo", "Pallisa", "Ibanda", "Lira", "Kotido", "Kanungu", "Nebbi", "Sembabule", "Kampala", "Busia", "Namutumba", "Hoima", "Isingiro", "Wakiso", "Lyantonde", "Masindi", "Mpigi", "Nakasongola", "Rakai", "Yumbe", "Butaleja", "Masaka", "Mbale", "Oyam", "Bugiri", "Arua", "Kasese", "Buliisa", "Northern", "Nakapiripirit", "Kiboga", "Ntungamo", "Bududa", "Maracha", "Mityana", "Kaberamaido", "Adjumani", "Eastern", "Kalangala", "Moyo", "Central", "Pader", "Kayunga", "Gulu", "Mukono", "Katakwi", "Sironko", "Kitgum"]
+    },
+    "Cuba": {
+        "code": "CU",
+        "name": "Cuba",
+        "subdivisions": ["Camagey", "Villa Clara", "La Habana", "Pinar del Rio", "Matanzas", "Ciego de vila", "Isla de la Juventud", "Ciudad de La Habana", "Cienfuegos", "Granma", "Sancti Spritus", "Holgun", "Santiago de Cuba", "Las Tunas", "Guantnamo"]
+    },
+    "Korea Democratic Peoples Republic of": {
+        "code": "KP",
+        "name": "Korea Democratic Peoples Republic of",
+        "subdivisions": ["Hwanghaenamdo", "Kangwndo", "Nasn NajinSnbong", "Pynganbukto", "Hamgyngbukto", "Pyngyang", "Pyngannamdo", "Hwanghaebukto", "Chagangdo", "Yanggangdo", "Hamgyngnamdo"]
+    },
+    "Samoa": {
+        "code": "WS",
+        "name": "Samoa",
+        "subdivisions": ["Gagaemauga", "Satupaitea", "Atua", "VaaoFonoti", "Aana", "Faasaleleaga", "AigaileTai", "Palauli", "Tuamasaga", "Gagaifomauga", "Vaisigano"]
+    },
+    "Cape Verde": {
+        "code": "CV",
+        "name": "Cape Verde",
+        "subdivisions": ["So Filipe", "Ilhas de Barlavento", "Paul", "Tarrafal", "Ilhas de Sotavento", "Ribeira Brava", "So Miguel", "Boa Vista", "So Vicente", "So Domingos", "Porto Novo", "Sal", "Ribeira Grande de Santiago", "Santa Cruz", "Brava", "Tarrafal de So Nicolau", "Santa Catarina", "So Loureno dos rgos", "Ribeira Grande", "Maio", "Mosteiros", "Santa Catarina de Fogo", "Praia", "So Salvador do Mundo"]
+    },
+    "Thailand": {
+        "code": "TH",
+        "name": "Thailand",
+        "subdivisions": ["Chaiyaphum", "Krabi", "Phatthaya", "Yala", "Phetchabun", "Ratchaburi", "Sukhothai", "Samut Prakan", "Phatthalung", "Surat Thani", "Chachoengsao", "Sa Kaeo", "Kamphaeng Phet", "Sing Buri", "Prachuap Khiri Khan", "Uthai Thani", "Amnat Charoen", "Roi Et", "Chumphon", "Tak", "Phangnga", "Nan", "Kalasin", "Loei", "Sakon Nakhon", "Songkhla", "Nong Khai", "Chanthaburi", "Mukdahan", "Phetchaburi", "Mae Hong Son", "Pathum Thani", "Nakhon Nayok", "Lamphun", "Pattani", "Phrae", "Lop Buri", "Chon Buri", "Phichit", "Suphan Buri", "Narathiwat", "Phuket", "Nong Bua Lam Phu", "Rayong", "Chiang Rai", "Chiang Mai", "Surin", "Ang Thong", "Nakhon Ratchasima", "Buri Ram", "Udon Thani", "Samut Sakhon", "Saraburi", "Khon Kaen", "Kanchanaburi", "Trat", "Lampang", "Samut Songkhram", "Satun", "Trang", "Si Sa Ket", "Nakhon Phanom", "Nakhon Pathom", "Ranong", "Nonthaburi", "Maha Sarakham", "Uttaradit", "Nakhon Si Thammarat", "Phitsanulok", "Chai Nat", "Phayao", "Ubon Ratchathani", "Phra Nakhon Si Ayutthaya", "Prachin Buri", "Nakhon Sawan", "Krung Thep Maha Nakhon Bangkok", "Yasothon"]
+    },
+    "Greenland": {
+        "code": "GL",
+        "name": "Greenland",
+        "subdivisions": ["Kommuneqarfik Sermersooq", "Qaasuitsup Kommunia", "Kommune Kujalleq", "Qeqqata Kommunia"]
+    },
+    "Armenia": {
+        "code": "AM",
+        "name": "Armenia",
+        "subdivisions": ["Aragacotn", "Armavir", "Ararat", "Tavus", "Vayoc Jor", "Syunik", "Kotayk", "Lory", "Sirak", "Erevan", "Gegarkunik"]
+    },
+    "Georgia": {
+        "code": "GE",
+        "name": "Georgia",
+        "subdivisions": ["Ajaria", "Kakheti", "Guria", "MtskhetaMtianeti", "Imereti", "SamegreloZemo Svaneti", "Kvemo Kartli", "Abkhazia", "Tbilisi", "RachaLechkhumiKvemo Svaneti", "SamtskheJavakheti", "Shida Kartli"]
+    },
+    "Singapore": {
+        "code": "SG",
+        "name": "Singapore",
+        "subdivisions": ["North East", "North West", "South East", "South West", "Central Singapore"]
+    },
+    "Somalia": {
+        "code": "SO",
+        "name": "Somalia",
+        "subdivisions": ["Togdheer", "Gedo", "Bari", "Shabeellaha Dhexe", "Woqooyi Galbeed", "Bay", "Jubbada Dhexe", "Awdal", "Nugaal", "Bakool", "Sool", "Jubbada Hoose", "Saneag", "Banaadir", "Hiirsan", "Galguduud", "Shabeellaha Hoose", "Mudug"]
+    },
+    "Ireland": {
+        "code": "IE",
+        "name": "Ireland",
+        "subdivisions": ["Roscommon", "Waterford", "Kilkenny", "Cavan", "Longford", "Mayo", "Westmeath", "Kerry", "Cork", "Meath", "Leitrim", "Connacht", "Carlow", "Laois", "Leinster", "Kildare", "Ulster", "Tipperary", "Munster", "Wicklow", "Offaly", "Wexford", "Galway", "Limerick", "Clare", "Louth", "Monaghan", "Dublin", "Donegal", "Sligo"]
+    },
+    "Libya": {
+        "code": "LY",
+        "name": "Libya",
+        "subdivisions": ["Sabh", "Al Marqab", "Jaghbb", "Al Jufrah", "Al Jifrah", "An Nuqa al Khams", "Az Zwiyah", "Wd al ayt", "Al Jabal al Gharb", "Ght", "Murzuq", "Darnah", "Wd ash Shi", "Al Bunn", "arbulus", "Al Wht", "Al Jabal al Akhar", "Banghz", "Nlt", "Surt", "Al Marj", "Al Kufrah", "Mirtah"]
+    },
+    "Namibia": {
+        "code": "NA",
+        "name": "Namibia",
+        "subdivisions": ["Khomas", "Oshana", "Kunene", "Oshikoto", "Caprivi", "Otjozondjupa", "Hardap", "Karas", "Omusati", "Erongo", "Okavango", "Ohangwena", "Omaheke"]
+    },
+    "Iran Islamic Republic of": {
+        "code": "IR",
+        "name": "Iran Islamic Republic of",
+        "subdivisions": ["Golestn", "Kordestn", "Kermnshh", "Khzestn", "Qom", "Markaz", "Khorsne Sheml", "Zanjn", "Hormozgn", "Lorestn", "Frs", "Qazvn", "Tehrn", "Semnn", "Efahn", "Kohglyeh va Byer Ahmad", "Kermn", "zarbyjne Gharb", "Yazd", "Sstn va Balchestn", "Chahr Mahll va Bakhtr", "Gln", "Khorsne Janb", "Mzandarn", "Khorsne Razav", "Hamadn", "lm", "Ardabl", "Bshehr", "zarbyjne Sharq"]
+    },
+    "Greece": {
+        "code": "GR",
+        "name": "Greece",
+        "subdivisions": ["Thesprotia", "Evrytania", "Larisa", "Samos", "Argolida", "Lasithi", "Karditsa", "Kerkyra", "Anatoliki Makedonia kai Thraki", "Fokida", "Kefallonia", "Messinia", "Grevena", "Arkadia", "Notio Aigaio", "Sterea Ellada", "Dytiki Makedonia", "Serres", "Pieria", "Thessalia", "Trikala", "Xanthi", "Kastoria", "Kriti", "Evros", "Irakleio", "Kilkis", "Aitolia kai Akarnania", "Ileia", "Dytiki Ellada", "Rethymno", "Ipeiros", "Lakonia", "Magnisia", "Ioannina", "Kentriki Makedonia", "Korinthia", "Agio Oros", "Chania", "Lefkada", "Pella", "Peloponnisos", "Dodekanisos", "Attiki", "Achaa", "Kozani", "Voreio Aigaio", "Fthiotida", "Imathia", "Drama", "Florina", "Arta", "Zakynthos", "Lesvos", "Chios", "Kyklades", "Chalkidiki", "Preveza", "Voiotia", "Rodopi", "Kavala", "Ionia Nisia", "Thessaloniki", "Evvoias"]
+    },
+    "Palau": {
+        "code": "PW",
+        "name": "Palau",
+        "subdivisions": ["Aimeliik", "Angaur", "Koror", "Ngeremlengui", "Melekeok", "Kayangel", "Ngardmau", "Ngaraard", "Sonsorol", "Ngchesar", "Hatobohei", "Peleliu", "Airai", "Ngatpang", "Ngiwal", "Ngarchelong"]
+    },
+    "Costa Rica": {
+        "code": "CR",
+        "name": "Costa Rica",
+        "subdivisions": ["Guanacaste", "Heredia", "Cartago", "Alajuela", "Limn", "San Jos", "Puntarenas"]
+    },
+    "New Zealand": {
+        "code": "NZ",
+        "name": "New Zealand",
+        "subdivisions": ["Otago", "Bay of Plenty", "Waikato", "ManawatuWanganui", "Marlborough District", "Northland", "Canterbury", "Auckland", "Nelson City", "South Island", "Hawkes Bay", "Southland", "West Coast", "Gisborne District", "Tasman District", "Chatham Islands Territory", "North Island", "Wellington", "Taranaki"]
+    },
+    "Italy": {
+        "code": "IT",
+        "name": "Italy",
+        "subdivisions": ["Chieti", "Biella", "Rieti", "Macerata", "Brescia", "Rovigo", "Pordenone", "Foggia", "Sassari", "EmiliaRomagna", "Rimini", "Teramo", "Isernia", "Reggio Calabria", "Caserta", "Sondrio", "Torino", "Ravenna", "Cagliari", "Terni", "Bolzano", "Ascoli Piceno", "Lombardia", "La Spezia", "Pistoia", "Umbria", "CarboniaIglesias", "Fermo", "Pesaro e Urbino", "Asti", "Savona", "Sardegna", "Aosta", "Vercelli", "Matera", "Reggio Emilia", "Piemonte", "Caltanissetta", "Napoli", "Pisa", "Crotone", "Siena", "Oristano", "Marche", "Medio Campidano", "Toscana", "Alessandria", "Liguria", "Vicenza", "Bari", "Catanzaro", "Belluno", "Enna", "Modena", "Mantova", "Viterbo", "VerbanoCusioOssola", "TrentinoAlto Adige", "Basilicata", "Benevento", "Roma", "Valle dAosta", "Calabria", "Arezzo", "Milano", "Veneto", "Perugia", "Monza e Brianza", "Frosinone", "Siracusa", "Palermo", "Brindisi", "Puglia", "Lucca", "Bologna", "Firenze", "Salerno", "Catania", "Grosseto", "BarlettaAndriaTrani", "Verona", "Piacenza", "Lecce", "Como", "Taranto", "Vibo Valentia", "Ragusa", "Ogliastra", "Gorizia", "Genova", "Varese", "LAquila", "Ferrara", "Latina", "Venezia", "ForlCesena", "Cremona", "Trapani", "Parma", "Campania", "Ancona", "Treviso", "Lodi", "Novara", "Cosenza", "Sicilia", "Lazio", "Lecco", "Udine", "FriuliVenezia Giulia", "Imperia", "Nuoro", "Pavia", "Pescara", "Padova", "Bergamo", "Molise", "Campobasso", "Potenza", "Avellino", "Trento", "MassaCarrara", "Abruzzo", "Livorno", "Messina", "Trieste", "Agrigento", "Cuneo", "Prato", "OlbiaTempio"]
+    },
+    "Saudi Arabia": {
+        "code": "SA",
+        "name": "Saudi Arabia",
+        "subdivisions": ["Al Jawf", "Al Bhah", "Jzan", "il", "Makkah", "Najrn", "Al udd ash Shamliyah", "Al Madnah", "Asr", "Ar Riy", "Ash Sharqyah", "Al Qam", "Tabk"]
+    },
+    "Trinidad and Tobago": {
+        "code": "TT",
+        "name": "Trinidad and Tobago",
+        "subdivisions": ["San JuanLaventille", "Arima", "Western Tobago", "Point Fortin", "TunapunaPiarco", "Princes Town", "CouvaTabaquiteTalparo", "Eastern Tobago", "Siparia", "Rio ClaroMayaro", "Diego Martin", "San Fernando", "PenalDebe", "Chaguanas", "Port of Spain", "Sangre Grande"]
+    },
+    "Sri Lanka": {
+        "code": "LK",
+        "name": "Sri Lanka",
+        "subdivisions": ["Mulativ", "Mtale", "Sabaragamuva pata", "Uturumda pata", "Ypanaya", "Hambanta", "Ratnapura", "Mannrama", "Kgalla", "Madhyama pata", "Dakuu pata", "Mahanuvara", "va pata", "Badulla", "Basnhira pata", "Mtara", "Uturu pata", "Vayamba pata", "Ampara", "Nuvara liya", "Kurugala", "Kilinchchi", "Anurdhapura", "Maakalapuva", "Puttalama", "Gampaha", "Margala", "Trikumalaya", "Glla", "Kamba", "Ngnahira pata", "Vavuniyva", "Pnnaruva", "Kautara"]
+    },
+    "Malawi": {
+        "code": "MW",
+        "name": "Malawi",
+        "subdivisions": ["Chitipa", "Salima", "Dedza", "Chikwawa", "Zomba", "Balaka", "Ntchisi", "Neno", "Chiradzulu", "Machinga", "Southern Region", "Northern Region", "Thyolo", "Mwanza", "Mangochi", "Ntcheu", "Rumphi", "Blantyre", "Nsanje", "Dowa", "Nkhotakota", "Nkhata Bay", "Mzimba", "Central Region", "Lilongwe", "Mulanje", "Karonga", "Phalombe", "Likoma", "Mchinji", "Kasungu"]
+    },
+    "Haiti": {
+        "code": "HT",
+        "name": "Haiti",
+        "subdivisions": ["Sud", "NordOuest", "NordEst", "Ouest", "GrandeAnse", "SudEst", "Artibonite", "Centre", "Nord"]
+    },
+    "Congo The Democratic Republic of the": {
+        "code": "CD",
+        "name": "Congo The Democratic Republic of the",
+        "subdivisions": ["NordKivu", "Maniema", "Bandundu", "quateur", "Katanga", "SudKivu", "Orientale", "KasaiOriental", "BasCongo", "KasaiOccidental", "Kinshasa"]
+    },
+    "China": {
+        "code": "CN",
+        "name": "China",
+        "subdivisions": ["Guizhou", "Hebei", "Shandong", "Xianggang HongKong", "Liaoning", "Chongqing", "Anhui", "Gansu", "Xizang", "Fujian", "Tianjin", "Hunan", "Zhejiang", "Jilin", "Shanghai", "Xinjiang", "Ningxia", "Nei Mongol", "Shanxi", "Beijing", "Shaanxi", "Henan", "Guangxi", "Sichuan", "Heilongjiang", "Hainan", "Qinghai", "Taiwan", "Yunnan", "Aomen Macau", "Jiangxi", "Guangdong", "Jiangsu", "Hubei"]
+    },
+    "Bulgaria": {
+        "code": "BG",
+        "name": "Bulgaria",
+        "subdivisions": ["Dobrich", "Burgas", "Smolyan", "Montana", "Gabrovo", "Plovdiv", "Pernik", "Lovech", "SofiaGrad", "Shumen", "Kardzhali", "Targovishte", "Ruse", "Blagoevgrad", "Sofia", "Varna", "Vratsa", "Kyustendil", "Stara Zagora", "Razgrad", "Veliko Tarnovo", "Yambol", "Pleven", "Pazardzhik", "Haskovo", "Vidin", "Silistra", "Sliven"]
+    },
+    "Nepal": {
+        "code": "NP",
+        "name": "Nepal",
+        "subdivisions": ["Madhyamanchal", "Mechi", "Madhya Pashchimanchal", "Rapti", "Sudur Pashchimanchal", "Mahakali", "Bagmati", "Bheri", "Pashchimanchal", "Purwanchal", "Janakpur", "Narayani", "Seti", "Gandaki", "Lumbini", "Kosi", "Karnali", "Dhawalagiri", "Sagarmatha"]
+    },
+    "Algeria": {
+        "code": "DZ",
+        "name": "Algeria",
+        "subdivisions": ["Sidi Bel Abbs", "Sada", "El Oued", "Tipaza", "Jijel", "Illizi", "Tlemcen", "Msila", "Biskra", "Djelfa", "Tiaret", "Tindouf", "Mostaganem", "An Tmouchent", "Relizane", "Blida", "Mila", "Ouargla", "Mda", "An Defla", "Boumerds", "Laghouat", "Bchar", "Bordj Bou Arrridj", "Bouira", "Annaba", "Alger", "El Tarf", "Souk Ahras", "Batna", "Ghardaa", "Khenchela", "Tissemsilt", "Tizi Ouzou", "Adrar", "Bjaa", "Constantine", "Naama", "Stif", "Oran", "Skikda", "Guelma", "Oum el Bouaghi", "El Bayadh", "Mascara", "Tbessa", "Tamanghasset", "Chlef"]
+    },
+    "Saint Vincent and the Grenadines": {
+        "code": "VC",
+        "name": "Saint Vincent and the Grenadines",
+        "subdivisions": ["Saint Andrew", "Charlotte", "Grenadines", "Saint George", "Saint Patrick", "Saint David"]
+    },
+    "Sierra Leone": {
+        "code": "SL",
+        "name": "Sierra Leone",
+        "subdivisions": ["Southern Sierra Leone", "Western Area Freetown", "Eastern", "Northern"]
+    },
+    "Ecuador": {
+        "code": "EC",
+        "name": "Ecuador",
+        "subdivisions": ["Esmeraldas", "Los Ros", "El Oro", "Azuay", "Imbabura", "Santo Domingo de los Tschilas", "Pichincha", "Carchi", "Santa Elena", "Pastaza", "Tungurahua", "Chimborazo", "Caar", "Galpagos", "MoronaSantiago", "Cotopaxi", "ZamoraChinchipe", "Napo", "Orellana", "Manab", "Sucumbos", "Loja", "Guayas", "Bolvar"]
+    },
+    "Austria": {
+        "code": "AT",
+        "name": "Austria",
+        "subdivisions": ["Steiermark", "Krnten", "Burgenland", "Wien", "Salzburg", "Vorarlberg", "Niedersterreich", "Obersterreich", "Tirol"]
+    },
+    "Mauritania": {
+        "code": "MR",
+        "name": "Mauritania",
+        "subdivisions": ["Nouakchott", "Brakna", "Gorgol", "Guidimaka", "Adrar", "Tagant", "Hodh el Charbi", "Tiris Zemmour", "Dakhlet Nouadhibou", "Trarza", "Hodh ech Chargui", "Assaba", "Inchiri"]
+    },
+    "Burundi": {
+        "code": "BI",
+        "name": "Burundi",
+        "subdivisions": ["Bujumbura Mairie", "Bururi", "Ngozi", "Bujumbura Rural", "Bubanza", "Makamba", "Mwaro", "Kayanza", "Rutana", "Muramvya", "Ruyigi", "Cibitoke", "Kirundo", "Karuzi", "Gitega", "Cankuzo"]
+    },
+    "GuineaBissau": {
+        "code": "GW",
+        "name": "GuineaBissau",
+        "subdivisions": ["Quinara", "Bafat", "Oio", "Norte", "Sul", "Bolama", "Tombali", "Biombo", "Cacheu", "Gab", "Bissau", "Leste"]
+    },
+    "Seychelles": {
+        "code": "SC",
+        "name": "Seychelles",
+        "subdivisions": ["Anse Royale", "Grand Anse Praslin", "Cascade", "English River", "Plaisance", "Saint Louis", "Takamaka", "Baie Sainte Anne", "Anse aux Pins", "Mont Fleuri", "Anse Etoile", "Les Mamelles", "Anse Boileau", "Beau Vallon", "Anse Louis", "La Digue", "Glacis", "Pointe Larue", "Bel Air", "Baie Lazare", "Bel Ombre", "Port Glaud", "Grand Anse Mahe", "Roche Caiman", "Mont Buxton"]
+    },
+    "Peru": {
+        "code": "PE",
+        "name": "Peru",
+        "subdivisions": ["Huancavelica", "Loreto", "Cajamarca", "Ica", "Tacna", "San Martn", "Cusco Cuzco", "Hunuco", "Apurmac", "Ucayali", "Municipalidad Metropolitana de Lima", "Ancash", "Ayacucho", "Pasco", "Madre de Dios", "Lambayeque", "Lima", "El Callao", "Amazonas", "Tumbes", "La Libertad", "Arequipa", "Moquegua", "Junn", "Piura", "Puno"]
+    },
+    "Slovakia": {
+        "code": "SK",
+        "name": "Slovakia",
+        "subdivisions": ["Banskobystrick kraj", "Treniansky kraj", "Trnavsk kraj", "ilinsk kraj", "Nitriansky kraj", "Preovsk kraj", "Bratislavsk kraj", "Koick kraj"]
+    },
+    "Marshall Islands": {
+        "code": "MH",
+        "name": "Marshall Islands",
+        "subdivisions": ["Ujae", "Likiep", "Maloelap", "Wotho", "Utirik", "Enewetak", "Kili", "Jaluit", "Kwajalein", "Ratak chain", "Ebon", "Namu", "Mejit", "Ailuk", "Majuro", "Ailinglaplap", "Rongelap", "Lae", "Lib", "Namdrik", "Mili", "Wotje", "Arno", "Ralik chain", "Jabat", "Aur"]
+    },
+    "Lesotho": {
+        "code": "LS",
+        "name": "Lesotho",
+        "subdivisions": ["Mafeteng", "Quthing", "ThabaTseka", "Qachas Nek", "Berea", "Mokhotlong", "Maseru", "Mohales Hoek", "Leribe", "ButhaButhe"]
+    },
+    "Ghana": {
+        "code": "GH",
+        "name": "Ghana",
+        "subdivisions": ["Upper West", "Volta", "Eastern", "Central", "Western", "BrongAhafo", "Ashanti", "Greater Accra", "Upper East", "Northern"]
+    },
+    "France": {
+        "code": "FR",
+        "name": "France",
+        "subdivisions": ["Creuse", "Corrze", "MaineetLoire", "MeurtheetMoselle", "ChampagneArdenne", "PyrnesAtlantiques", "DeuxSvres", "Guadeloupe", "Savoie", "Ardennes", "Centre", "Var", "CharenteMaritime", "HauteLoire", "HautsdeSeine", "LanguedocRoussillon", "HautRhin", "Cantal", "SeineetMarne", "HauteVienne", "PuydeDme", "Moselle", "Cher", "Yonne", "Limousin", "AlpesdeHauteProvence", "Doubs", "AlpesMaritimes", "Polynsie franaise", "Vaucluse", "Gard", "Val dOise", "Paris", "Sarthe", "ValdeMarne", "PyrnesOrientales", "HauteMarne", "Picardie", "SaneetLoire", "Mayenne", "Territoire de Belfort", "Clipperton", "CtesdArmor", "Vienne", "Aisne", "Nivre", "Tarn", "LoireAtlantique", "MidiPyrnes", "LoiretCher", "EureetLoir", "Jura", "Corse", "RhneAlpes", "PasdeCalais", "Drme", "Aquitaine", "Landes", "Somme", "SaintPierreetMiquelon", "HautesAlpes", "Loire", "ProvenceAlpesCte dAzur", "Arige", "BasseNormandie", "PoitouCharentes", "Eure", "HauteNormandie", "Vende", "Rhne", "LotetGaronne", "IlleetVilaine", "Ardche", "Aude", "Terres australes franaises", "WallisetFutuna", "Charente", "Isre", "Ain", "Calvados", "Vosges", "Dordogne", "Mayotte", "Lozre", "CorseduSud", "Nord", "SaintBarthlemy", "Bourgogne", "TarnetGaronne", "Indre", "Alsace", "ledeFrance", "Lorraine", "Gironde", "Essonne", "SeineMaritime", "Oise", "BasRhin", "SeineSaintDenis", "Runion", "Orne", "Morbihan", "Guyane", "HauteSavoie", "Pays de la Loire", "NouvelleCaldonie", "Lot", "CtedOr", "Auvergne", "Manche", "HautesPyrnes", "IndreetLoire", "Loiret", "Marne", "Meuse", "BouchesduRhne", "HauteCorse", "HauteSane", "Aube", "Gers", "Nord  PasdeCalais", "Allier", "Bretagne", "Aveyron", "FrancheComt", "Yvelines", "Finistre", "Martinique", "Hrault", "HauteGaronne", "SaintMartin"]
+    },
+    "Botswana": {
+        "code": "BW",
+        "name": "Botswana",
+        "subdivisions": ["Kgalagadi", "Ghanzi", "NorthWest", "Southern", "Kgatleng", "Central", "SouthEast", "NorthEast", "Kweneng"]
+    },
+    "Oman": {
+        "code": "OM",
+        "name": "Oman",
+        "subdivisions": ["Az Zhirah", "Al Binah", "Al Wus", "Ad Dkhilya", "Musandam", "Al Buraym", "Masqa", "Ash Sharqyah", "Zufr"]
+    },
+    "Benin": {
+        "code": "BJ",
+        "name": "Benin",
+        "subdivisions": ["Atlantique", "Alibori", "Mono", "Zou", "Kouffo", "Oum", "Atakora", "Plateau", "Donga", "Littoral", "Collines", "Borgou"]
+    },
+    "Bangladesh": {
+        "code": "BD",
+        "name": "Bangladesh",
+        "subdivisions": ["Madaripur", "Sylhet", "Pabna", "Shariatpur", "Kishorganj", "Sherpur", "Narsingdi", "Bandarban", "Jaipurhat", "Panchagarh", "Gopalganj", "Rajshahi", "Barguna", "Jessore", "Netrakona", "Habiganj", "Comilla", "Pirojpur", "Magura", "Nawabganj", "Narail", "Rangamati", "Nilphamari", "Coxs Bazar", "Jhenaidah", "Manikganj", "Khagrachari", "Natore", "Rajbari", "Brahmanbaria", "Narayanganj", "Bogra", "Thakurgaon", "Lakshmipur", "Feni", "Kurigram", "Jamalpur", "Gaibandha", "Khulna", "Barisal", "Faridpur", "Tangail", "Jhalakati", "Chandpur", "Gazipur", "Meherpur", "Rangpur", "Chittagong", "Bhola", "Bagerhat", "Sunamganj", "Satkhira", "Chuadanga", "Sirajganj", "Dinajpur", "Dhaka", "Lalmonirhat", "Munshiganj", "Naogaon", "Moulvibazar", "Patuakhali", "Noakhali", "Kushtia", "Mymensingh"]
+    },
+    "Viet Nam": {
+        "code": "VN",
+        "name": "Viet Nam",
+        "subdivisions": ["Cao Bng", "Bnh Dng", "Cn Th", "Lo Cai", "c Lk", "Qung Ninh", "Sn La", "Tuyn Quang", "Tha ThinHu", "Ngh An", "H Nam", "H Giang", "Khnh Ha", "Bnh Thun", "Ho Bnh", "ng Nai", "Bnh Phc", "Tr Vinh", "Bc Kn", "Ph Th", "Ty Ninh", "H Ty", "Long An", "Bc Liu", "Hu Giang", " Nng", "Hi Phng", "Lm ng", "Thi Bnh", "in Bin", "Ninh Thun", "Thi Nguyn", "B RaVng Tu", "H Ch Minh Si Gn", "Kon Tum", "Ph Yn", "Nam nh", "Hi Duong", "Yn Bi", "Bc Ninh", "Bn Tre", "An Giang", "Qung Ngi", "Bnh nh", "Qung Tr", "C Mau", "Qung Nam", "Ninh Bnh", "Bc Giang", "Qung Bnh", "Kin Giang", "Tin Giang", "Thanh Ha", "Lai Chu", "Hng Yn", "Sc Trng", "H Ni", "Vnh Long", "ng Thp", "Vnh Phc", "Gia Lai", "k Nng", "H Tnh", "Lng Sn"]
+    },
+    "Korea Republic of": {
+        "code": "KR",
+        "name": "Korea Republic of",
+        "subdivisions": ["Gwangju Gwangyeogsi", "Jejudo", "Chungcheongbukdo", "Busan Gwangyeogsi", "Gyeongsangbukdo", "Daegu Gwangyeogsi", "Gyeonggido", "Incheon Gwangyeogsi", "Jeonrabukdo", "Gangweondo", "Chungcheongnamdo", "Jeonranamdo", "Gyeongsangnamdo", "Daejeon Gwangyeogsi", "Ulsan Gwangyeogsi", "Seoul Teugbyeolsi"]
+    },
+    "Panama": {
+        "code": "PA",
+        "name": "Panama",
+        "subdivisions": ["Coln", "Chiriqu", "Kuna Yala", "Los Santos", "Herrera", "Darin", "NgbeBugl", "Bocas del Toro", "Ember", "Veraguas", "Cocl", "Panam"]
+    },
+    "Sao Tome and Principe": {
+        "code": "ST",
+        "name": "Sao Tome and Principe",
+        "subdivisions": ["So Tom", "Prncipe"]
+    },
+    "Saint Helena Ascension and Tristan da Cunha": {
+        "code": "SH",
+        "name": "Saint Helena Ascension and Tristan da Cunha",
+        "subdivisions": ["Tristan da Cunha", "Saint Helena", "Ascension"]
+    },
+    "Germany": {
+        "code": "DE",
+        "name": "Germany",
+        "subdivisions": ["Hamburg", "RheinlandPfalz", "Berlin", "Saarland", "Bayern", "SchleswigHolstein", "Thringen", "SachsenAnhalt", "Brandenburg", "MecklenburgVorpommern", "BadenWrttemberg", "NordrheinWestfalen", "Bremen", "Sachsen", "Niedersachsen", "Hessen"]
+    },
+    "Estonia": {
+        "code": "EE",
+        "name": "Estonia",
+        "subdivisions": ["Lnemaa", "Viljandimaa", "Valgamaa", "Raplamaa", "Jgevamaa", "Saaremaa", "Harjumaa", "Tartumaa", "Plvamaa", "IdaVirumaa", "Jrvamaa", "LneVirumaa", "Vrumaa", "Hiiumaa", "Prnumaa"]
+    },
+    "Bosnia and Herzegovina": {
+        "code": "BA",
+        "name": "Bosnia and Herzegovina",
+        "subdivisions": ["Bosanskopodrinjski kanton", "Federacija Bosne i Hercegovine", "Kanton Sarajevo", "Brko distrikt", "Posavski kanton", "Kanton br  Livanjski kanton", "Tuzlanski kanton", "Zenikodobojski kanton", "Republika Srpska", "Zapadnohercegovaki kanton", "Srednjobosanski kanton", "Unskosanski kanton", "Hercegovakoneretvanski kanton"]
+    },
+    "Comoros": {
+        "code": "KM",
+        "name": "Comoros",
+        "subdivisions": ["Mohl Mhl", "Andjazdja Anjazjah", "Andjoun Anjwn"]
+    },
+    "Israel": {
+        "code": "IL",
+        "name": "Israel",
+        "subdivisions": ["Yerushalayim Al Quds", "Hefa", "HaZafon", "TelAviv", "HaDarom", "HaMerkaz"]
+    },
+    "Kiribati": {
+        "code": "KI",
+        "name": "Kiribati",
+        "subdivisions": ["Phoenix Islands", "Gilbert Islands", "Line Islands"]
+    },
+    "Cte dIvoire": {
+        "code": "CI",
+        "name": "Cte dIvoire",
+        "subdivisions": ["MoyenCavally Rgion du", "HautSassandra Rgion du", "Savanes Rgion des", "Fromager Rgion du", "Dengul Rgion du", "Lagunes Rgion des", "Lacs Rgion des", "Bafing Rgion du", "Marahou Rgion de la", " Montagnes Rgion des", "Agnbi Rgion de l", "Valle du Bandama Rgion de la", "Zanzan Rgion du", "BasSassandra Rgion du", "Worodouqou Rgion du", "SudBandama Rgion du", "MoyenComo Rgion du", "SudComo Rgion du", "NziComo Rgion"]
+    },
+    "South Africa": {
+        "code": "ZA",
+        "name": "South Africa",
+        "subdivisions": ["Eastern Cape", "Free State", "KwazuluNatal", "Gauteng", "Northern Cape", "Western Cape", "NorthWest South Africa", "Mpumalanga", "Limpopo"]
+    },
+    "Palestine State of": {
+        "code": "PS",
+        "name": "Palestine State of",
+        "subdivisions": ["Qalqilya", "Rafah", "Hebron", "Jerusalem", "Bethlehem", "Nablus", "Jenin", "North Gaza", "Deir El Balah", "Salfit", "Ramallah", "Jericho  Al Aghwar", "Tulkarm", "Gaza", "Khan Yunis", "Tubas"]
+    },
+    "San Marino": {
+        "code": "SM",
+        "name": "San Marino",
+        "subdivisions": ["Montegiardino", "Domagnano", "Borgo Maggiore", "Acquaviva", "Faetano", "Serravalle", "Fiorentino", "San Marino", "Chiesanuova"]
+    },
+    "Maldives": {
+        "code": "MV",
+        "name": "Maldives",
+        "subdivisions": ["Lhaviyani", "Gnaviyani", "Gaafu Dhaalu", "Faafu", "Gaafu Alifu", "Alifu Dhaalu", "Haa Dhaalu", "Shaviyani", "Raa", "Alifu Alifu", "South Central", "Laamu", "Kaafu", "Male", "South", "Meemu", "Vaavu", "Thaa", "North Central", "Seenu", "Noonu", "Upper South", "Upper North", "Haa Alifu", "North", "Baa", "Central", "Dhaalu"]
+    },
+    "Tajikistan": {
+        "code": "TJ",
+        "name": "Tajikistan",
+        "subdivisions": ["Khatlon", "Sughd", "GornoBadakhshan"]
+    },
+    "Denmark": {
+        "code": "DK",
+        "name": "Denmark",
+        "subdivisions": ["Hovedstaden", "Sjlland", "Nordjylland", "Midtjylland", "Syddanmark"]
+    },
+    "TimorLeste": {
+        "code": "TL",
+        "name": "TimorLeste",
+        "subdivisions": ["Bobonaro", "Baucau", "Liquia", "Ermera", "Viqueque", "Lautem", "Manufahi", "Manatuto", "Oecussi", "Cova Lima", "Ainaro", "Dli", "Aileu"]
+    },
+    "Papua New Guinea": {
+        "code": "PG",
+        "name": "Papua New Guinea",
+        "subdivisions": ["Southern Highlands", "New Ireland", "Morobe", "East Sepik", "West New Britain", "Sandaun", "Manus", "National Capital District Port Moresby", "Eastern Highlands", "Western Highlands", "Central", "East New Britain", "Western", "Bougainville", "Enga", "Milne Bay", "Madang", "Chimbu", "Gulf", "Northern"]
+    },
+    "Egypt": {
+        "code": "EG",
+        "name": "Egypt",
+        "subdivisions": ["Shj", "Al Iskandaryah", "Hulwn", "Qin", "Br Sad", "Ad Daqahlyah", "Al Wd al Jadd", "Kafr ash Shaykh", "Al Jzah", "Ban Suwayf", "Dumyt", "Al Qhirah", "As Suways", "Ash Sharqyah", "Al Minfyah", "As Sdis min Uktbar", "Al Qalybyah", "Al Bahr al Ahmar", "Janb Sn", "Al Buhayrah", "Al Fayym", "Al Miny", "Shamal Sn", "Al Gharbyah", "Matrh", "Aswn", "Al Ismlyah", "Asyt"]
+    },
+    "Lebanon": {
+        "code": "LB",
+        "name": "Lebanon",
+        "subdivisions": ["Bqaa", "BaalbekHermel", "Aakkr", "LibanSud", "MontLiban", "Beyrouth", "Nabaty", "LibanNord"]
+    },
+    "Gabon": {
+        "code": "GA",
+        "name": "Gabon",
+        "subdivisions": ["OgoouMaritime", "HautOgoou", "Nyanga", "WoleuNtem", "OgoouIvindo", "MoyenOgoou", "Estuaire", "OgoouLolo", "Ngouni"]
+    },
+    "Dominican Republic": {
+        "code": "DO",
+        "name": "Dominican Republic",
+        "subdivisions": ["Independencia", "Barahona", "La Estrelleta Elas Pia", "Espaillat", "Saman", "Snchez Ramrez", "La Altagracia", "Salcedo", "Pedernales", "Monte Cristi", "Azua", "La Vega", "La Romana", "Monte Plata", "Santiago", "Hato Mayor", "Distrito Nacional Santo Domingo", "Santiago Rodrguez", "Duarte", "Puerto Plata", "El Seybo El Seibo", "Mara Trinidad Snchez", "Peravia", "Bahoruco", "Monseor Nouel", "Dajabn", "San Juan", "San Cristbal", "San Pedro de Macors", "Valverde"]
+    },
+    "Slovenia": {
+        "code": "SI",
+        "name": "Slovenia",
+        "subdivisions": ["Ljutomer", "Radlje ob Dravi", "Muta", "Vodice", "Apae", "Ormo", "kofljica", "alovci", "Kuzma", "Bohinj", "Kamnik", "Sveta Andra v Slovenskih Goricah", "etale", "LendavaLendva", "Rue", "Hajdina", "Cerknica", "Dolenjske Toplice", "Cerklje na Gorenjskem", "Semi", "Rogatec", "HoeSlivnica", "Domale", "Polzela", "Maribor", "Nazarje", "RaeFram", "Radenci", "Straa", "Mirna Pe", "Jesenice", "Rogaka Slatina", "Krko", "tore", "Markovci", "Pesnica", "Divaa", "kocjan", "Vipava", "Velenje", "Majperk", "Brda", "Brezovica", "martno pri Litiji", "Lako", "Sodraica", "Nova Gorica", "Jurinci", "Rogaovci", "Kidrievo", "Litija", "Slovenska Bistrica", "Bloke", "Ribnica", "otanj", "Trzin", "Velike Lae", "Morave", "Cankova", "Verej", "Koevje", "Prevalje", "Lukovica", "Turnie", "Kostel", "Kungota", "Cerkno", "Moravske Toplice", "Radee", "Destrnik", "Horjul", "Ravne na Korokem", "renovci", "Kosanjevica na Krki", "rna na Korokem", "Dobrna", "DobrovnikDobronak", "Prebold", "Podetrtek", "Idrija", "Lovrenc na Pohorju", "Stare", "Bovec", "Vuzenica", "Logatec", "uemberk", "Beltinci", "Sveti Jurij v Slovenskih Goricah", "Kranjska Gora", "Velika Polana", "Tabor", "Naklo", "entjur", "Krievci", "Loki Potok", "Zavr", "Dobrepolje", "Gornja Radgona", "Ljubno", "LogDragomer", "kofja Loka", "Metlika", "Kranj", "Zagorje ob Savi", "marje pri Jelah", "Borovnica", "MokronogTrebelno", "Osilnica", "marjeske Toplie", "Lue", "Odranci", "Preddvor", "Lenart", "Komenda", "Sveta Ana", "Murska Sobota", "Cirkulane", "Ljubljana", "Tri", "Bistrica ob Sotli", "Solava", "Podvelka", "Gorje", "Ig", "alec", "Podlehnik", "Duplek", "irovnica", "Grad", "Breice", "elezniki", "Dravograd", "empeterVrtojba", "Cerkvenjak", "Bled", "entjernej", "Reica ob Savinji", "entrupert", "Gorenja vasPoljane", "Ptuj", "Ribnica na Pohorju", "martno ob Paki", "Mozirje", "Radovljica", "Kobilje", "Grosuplje", "Trebnje", "Jezersko", "Gorinica", "Komen", "Meica", "PiranPirano", "HrpeljeKozina", "Razkrije", "Dol pri Ljubljani", "Dornava", "Vrhnika", "Vransko", "Selnica ob Dravi", "Loka dolina", "KoperCapodistria", "Gornji Grad", "Sredie ob Dravi", "Zree", "Ivanna Gorica", "Poljane", "Braslove", "Slovenj Gradec", "Videm", "Novo mesto", "Benedikt", "MirenKostanjevica", "rnomelj", "Ilirska Bistrica", "Kozje", "Vojnik", "ReneVogrsko", "Kobarid", "Medvode", "IzolaIsola", "Miklav na Dravskem polju", "Puconci", "Sveti Toma", "Oplotnica", "HodoHodos", "Tiina", "Vitanje", "Sevnica", "Slovenske Konjice", "Postojna", "Trbovlje", "Celje", "DobrovaPolhov Gradec", "Pivka", "Trnovska vas", "iri", "Tolmin", "Menge", "Makole", "Ajdovina", "Hrastnik", "Sveta Trojica v Slovenskih Goricah", "entilj", "Seana", "Mislinja", "Sveti Jurij", "Kanal", "enur", "Gornji Petrovci", "Dobje"]
+    },
+    "Mali": {
+        "code": "ML",
+        "name": "Mali",
+        "subdivisions": ["Sikasso", "Tombouctou", "Mopti", "Koulikoro", "Sgou", "Kayes", "Gao", "Bamako", "Kidal"]
+    },
+    "Jamaica": {
+        "code": "JM",
+        "name": "Jamaica",
+        "subdivisions": ["Saint Catherine", "Saint Andrew", "Saint Thomas", "Saint Ann", "Portland", "Westmoreland", "Hanover", "Saint Mary", "Manchester", "Clarendon", "Saint Elizabeth", "Saint James", "Kingston", "Trelawny"]
+    },
+    "South Sudan": {
+        "code": "SS",
+        "name": "South Sudan",
+        "subdivisions": ["Central Equatoria", "Warrap", "Lakes", "Northern Bahr elGhazal", "Upper Nile", "Eastern Equatoria", "Western Equatoria", "Unity", "Jonglei", "Western Bahr elGhazal"]
+    },
+    "Liberia": {
+        "code": "LR",
+        "name": "Liberia",
+        "subdivisions": ["Grand Bassa", "Nimba", "Grand Cape Mount", "Montserrado", "Grand Gedeh", "Bomi", "Sinoe", "Maryland", "Bong", "Margibi", "Rivercess", "Lofa", "Grand Kru"]
+    },
+    "Philippines": {
+        "code": "PH",
+        "name": "Philippines",
+        "subdivisions": ["North Cotabato", "Sulu", "Antique", "Guimaras", "Capiz", "Bicol Region V", "Agusan del Sur", "Romblon", "Eastern Visayas Region VIII", "Ilocos Norte", "Cordillera Administrative Region CAR", "South Cotabato", "La Union", "Caraga Region XIII", "Surigao del Norte", "Sorsogon", "Surigao del Sur", "Palawan", "Siquijor", "Dinagat Islands", "TawiTawi", "Zambales", "Zamboanga del Norte", "Eastern Samar", "Mountain Province", "Ifugao", "Central Visayas Region VII", "National Capital Region", "Negros Oriental", "Abra", "Camarines Norte", "Iloilo", "Benguet", "Ilocos Sur", "Camarines Sur", "Camiguin", "Nueva Ecija", "Agusan del Norte", "Sarangani", "Apayao", "Davao Region XI", "Bukidnon", "Zamboanga Peninsula Region IX", "Western Samar", "Cavite", "Cebu", "Maguindanao", "Cagayan Valley Region II", "Soccsksargen Region XII", "Zamboanga Sibugay", "Catanduanes", "Ilocos Region I", "Nueva Vizcaya", "CALABARZON Region IVA", "Batanes", "Central Luzon Region III", "Cagayan", "Lanao del Sur", "Basilan", "Quirino", "Southern Leyte", "Aklan", "Tarlac", "Northern Mindanao Region X", "Northern Samar", "Rizal", "Mindoro Oriental", "Batangas", "Davao del Sur", "Marinduque", "Davao del Norte", "Compostela Valley", "Aurora", "Misamis Occidental", "Laguna", "Bohol", "Autonomous Region in Muslim Mindanao ARMM", "Biliran", "Lanao del Norte", "Zamboanga del Sur", "Sultan Kudarat", "Davao Oriental", "Pangasinan", "Leyte", "Misamis Oriental", "Isabela", "Quezon", "Albay", "Western Visayas Region VI", "MIMAROPA Region IVB", "Masbate", "Pampanga", "Batasn", "Mindoro Occidental", "Bulacan", "Negroe Occidental", "KalingaApayso"]
+    },
+    "Bhutan": {
+        "code": "BT",
+        "name": "Bhutan",
+        "subdivisions": ["Trongsa", "Zhemgang", "Samtee", "Chhukha", "Tsirang", "Pemagatshel", "Ha", "Gasa", "Trashi Yangtse", "Monggar", "Punakha", "Dagana", "Wangdue Phodrang", "Bumthang", "Paro", "Trashigang", "Samdrup Jongkha", "Lhuentse", "Sarpang", "Thimphu"]
+    },
+    "Turkmenistan": {
+        "code": "TM",
+        "name": "Turkmenistan",
+        "subdivisions": ["Lebap", "Ahal", "Balkan", "Agabat", "Mary", "Daoguz"]
+    },
+    "Spain": {
+        "code": "ES",
+        "name": "Spain",
+        "subdivisions": [" Principado de", "La Rioja", "Girona", "Navarra  Nafarroa", "Alicante", "Canarias", "Soria", "Cantabria", "Valladolid", "Teruel", "Valencia  Valncia", "Castelln", "Aragn", "Castilla y Len", " Regin de", "Lleida", "Vizcayaa  Bizkaia", "Badajoz", "Melilla", "Cdiz", "Tarragona", "Ciudad Real", "Galicia", "Pas Vasco  Euskal Herria", "Almera", "Toledo", "Cuenca", "Huesca", "Burgos", "Sevilla", "Zaragoza", "Barcelona", "Segovia", "Santa Cruz de Tenerife", "Crdoba", " Comunidad  Valenciana", "Lugo", "Madrid", "CastillaLa Mancha", "Balears", " Comunitat ", "Extremadura", "Illes Balears", "Pontevedra", "lava", "Guipzcoa  Gipuzkoa", "Huelva", "Andaluca", "Catalunya", "Mlaga", "Valenciana", "Salamanca", "Len", " Comunidad Foral de  Nafarroako Foru Komunitatea", "Ceuta", "Jan", "Las Palmas", "Cceres", "A Corua", "Zamora", "Murcia", " Comunidad de", "Granada", "vila", "Palencia", "Ourense", "Asturias", "Albacete", "Guadalajara", "Navarra"]
+    },
+    "Hungary": {
+        "code": "HU",
+        "name": "Hungary",
+        "subdivisions": ["Somogy", "Baranya", "Kaposvr", "Zala", "GyrMosonSopron", "Szekszrd", "SzabolcsSzatmrBereg", "Tolna", "Pcs", "Veszprm", "Sopron", "HajdBihar", "Vas", "BcsKiskun", "Bks", "Szkesfehrvr", "Veszprm county", "JszNagykunSzolnok", "Fejr", "Miskolc", "Salgtarjn", "Pest", "Szeged", "Szolnok", "Tatabnya", "Nyregyhza", "Eger", "Gyr", "Szombathely", "Debrecen", "Zalaegerszeg", "Csongrd", "Hdmezvsrhely", "Kecskemt", "Nagykanizsa", "Ngrd", "Dunajvros", "Heves", "Budapest", "KomromEsztergom", "rd", "Bkscsaba", "BorsodAbajZempln"]
+    },
+    "Iraq": {
+        "code": "IQ",
+        "name": "Iraq",
+        "subdivisions": ["Baghdad", "Al Basrah", "An Najef", "Dhi Qar", "Dahuk", "Al Anbar", "Diyala", "Ninawa", "Al Qadisiyah", "Wasit", "Karbala", "Salah ad Din", "As Sulaymaniyah", "At Tamim", "Maysan", "Al Muthanna", "Babil", "Arbil"]
+    },
+    "Mauritius": {
+        "code": "MU",
+        "name": "Mauritius",
+        "subdivisions": ["Beau BassinRose Hill", "Curepipe", "Port Louis", "Flacq", "Cargados Carajos Shoals", "VacoasPhoenix", "Rivire du Rempart", "Agalega Islands", "Pamplemousses", "Black River", "Grand Port", "Rodrigues Island", "Quatre Bornes", "Savanne", "Plaines Wilhems", "Moka"]
+    },
+    "Romania": {
+        "code": "RO",
+        "name": "Romania",
+        "subdivisions": ["Dolj", "Braov", "Arge", "Maramure", "Alba", "Olt", "Giurgiu", "Covasna", "Bucureti", "Clrai", "Ilfov", "Vrancea", "Tulcea", "Bihor", "Gorj", "Suceava", "Bacu", "Galai", "Cluj", "Iai", "Mure", "Prahova", "Constana", "Dmbovia", "Sibiu", "CaraSeverin", "Harghita", "Ialomia", "Satu Mare", "Timi", "Arad", "Mehedini", "Vlcea", "Botoani", "Buzu", "BistriaNsud", "Neam", "Hunedoara", "Vaslui", "Brila", "Teleorman", "Slaj"]
+    },
+    "Andorra": {
+        "code": "AD",
+        "name": "Andorra",
+        "subdivisions": ["Sant Juli de Lria", "Ordino", "EscaldesEngordany", "La Massana", "Encamp", "Andorra la Vella", "Canillo"]
+    },
+    "Macedonia Republic of": {
+        "code": "MK",
+        "name": "Macedonia Republic of",
+        "subdivisions": ["Demir Kapija", "Gevgelija", "Ilinden", "Zrnovci", "Probitip", "Tearce", "uto Orizari", "uer Sandevo", "Jegunovce", "Staro Nagoriane", "Kisela Voda", "Centar", "Bogdanci", "Gradsko", "air", "Pehevo", "Bitola", "Kratovo", "Dolneni", "Makedonski Brod", "Sveti Nikole", "tip", "Prilep", "Brvenica", "Karpo", "Krivogatani", "Vrapite", "Kumanovo", "Kone", "Koani", "elino", "Makedonska Kamenica", "Gazi Baba", "Gjore Petrov", "Bogovinje", "Kriva Palanka", "Butel", "Plasnica", "Strumica", "Arainovo", "MavrovoiRostua", "Studeniani", "Tetovo", "Debar", "Struga", "Karbinci", "Kavadarci", "Vasilevo", "Vranetica", "Resen", "Sopite", "Lozovo", "Ohrid", "Oslomej", "Zelenikovo", "Demir Hisar", "Lipkovo", "Drugovo", "Valandovo", "Centar upa", "einovoObleevo", "Delevo", "Kruevo", "Debarca", "Kievo", "Dojran", "Negotino", "Petrovec", "aka", "Novo Selo", "Mogila", "Vinica", "Saraj", "Vevani", "Rankovce", "Aerodrom", "Berovo", "Radovi", "Gostivar", "Novaci", "Veles", "Zajas", "Bosilovo", "Rosoman"]
+    },
+    "Syrian Arab Republic": {
+        "code": "SY",
+        "name": "Syrian Arab Republic",
+        "subdivisions": ["Al Ladhiqiyah", "Dimashq", "Hamah", "Ar Raqqah", "Rif Dimashq", "Dara", "Idlib", "Dayr az Zawr", "Homs", "Al Qunaytirah", "Tartus", "Al Hasakah", "As Suwayda", "Halab"]
+    },
+    "Turkey": {
+        "code": "TR",
+        "name": "Turkey",
+        "subdivisions": ["Nide", "Siirt", "Bayburt", "Rize", "Mula", "Bartn", "Osmaniye", "Giresun", "Denizli", "Ankara", "Diyarbakr", "Erzurum", "stanbul", "zmir", "Yalova", "Yozgat", "Kocaeli", "Sakarya", "rnak", "Dzce", "Kilis", "ankr", "Zonguldak", "Sinop", "orum", "Mardin", "Antalya", "Idr", "Krkkale", "Nevehir", "Krehir", "Bursa", "Eskiehir", "Edirne", "anlurfa", "Batman", "Erzincan", "Elaz", "Aydn", "Mu", "Gmhane", "Kayseri", "Ar", "Van", "Karaman", "Ardahan", "Trabzon", "Mersin", "Tunceli", "anakkale", "Afyonkarahisar", "Aksaray", "Bitlis", "Burdur", "Balkesir", "Adana", "Konya", "Kahramanmara", "Kastamonu", "Ordu", "Karabk", "Tokat", "Adyaman", "Ktahya", "Gaziantep", "Uak", "Krklareli", "Tekirda", "Kars", "Sivas", "Samsun", "Manisa", "Isparta", "Bolu", "Malatya", "Bilecik", "Amasya", "Hakkri", "Bingl", "Artvin", "Hatay"]
+    },
+    "United Arab Emirates": {
+        "code": "AE",
+        "name": "United Arab Emirates",
+        "subdivisions": ["Dubayy", "Umm al Qaywayn", "Ab aby Abu Dhabi", "Ras al Khaymah", "Ajmn", "Ash Shriqah", "Al Fujayrah"]
+    },
+    "Sudan": {
+        "code": "SD",
+        "name": "Sudan",
+        "subdivisions": ["Sinnr", "Zalingei", "Al Kharm", "Shaml Drfr", "An Nl al Azraq", "Shaml Kurdufn", "Janb Drfr", "Janb Kurdufn", "Al Qarif", "Gharb Drfr", "Sharq Drfr", "Ash Shamlyah", "Kassal", "Al Bar al Amar", "Al Jazrah", "An Nl al Abya", "An Nl"]
+    },
+    "Mexico": {
+        "code": "MX",
+        "name": "Mexico",
+        "subdivisions": ["San Luis Potos", "Durango", "Nayarit", "Campeche", "Colima", "Tamaulipas", "Aguascalientes", "Zacatecas", "Mxico", "Morelos", "Nuevo Len", "Jalisco", "Baja California Sur", "Coahuila", "Chihuahua", "Sonora", "Puebla", "Tlaxcala", "Guerrero", "Sinaloa", "Guanajuato", "Quertaro", "Baja California", "Chiapas", "Tabasco", "Hidalgo", "Distrito Federal", "Oaxaca", "Veracruz", "Michoacn", "Quintana Roo", "Yucatn"]
+    },
+    "Colombia": {
+        "code": "CO",
+        "name": "Colombia",
+        "subdivisions": ["Cauca", "Meta", "Cundinamarca", "Antioquia", "Risaralda", "Vaups", "Choc", "Nario", "Vichada", "Caldas", "Guaviare", "Valle del Cauca", "Crdoba", "Caquet", "Guaina", " Providencia y Santa Catalina", "Cesar", "Sucre", "San Andrs", "Tolima", "Amazonas", "Quindo", "Putumayo", "Magdalena", "Distrito Capital de Bogot", "Atlntico", "Casanare", "Huila", "Norte de Santander", "Boyac", "Santander", "Arauca", "La Guajira", "Bolvar"]
+    }
+}

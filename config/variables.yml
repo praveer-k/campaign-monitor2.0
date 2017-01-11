@@ -1,0 +1,61 @@
+user:
+  - user_id
+  - name
+  - screen_name
+  - user_created_at
+  - description
+  - friends_count
+  - statuses_count
+  - followers_count
+  - favourites_count
+  - contributors_enabled
+place:
+  - place_id
+  - subdivision
+  - location
+tweet:
+  - tweet_id
+  - created_at
+  - lang
+  - retweeted
+  - text
+  - links
+  - retweet_count
+author:
+  - author_id
+  - author_screen_name
+source:
+  - source
+sentiment:
+  - category
+  - confidence
+dropable:
+  - user_id
+  - name
+  - description
+  - place_id
+  - location
+  - tweet_id
+  - lang
+  - links
+  - author_id
+two_factors:
+  - category
+  - contributors_enabled
+  - retweeted
+multi_factors:
+  - author_screen_name
+  - source
+  - screen_name
+  - subdivision
+numeric:
+  - friends_count
+  - statuses_count
+  - followers_count
+  - favourites_count
+  - retweet_count
+  - confidence
+time_series:
+  - created_at
+  - user_created_at
+response: text

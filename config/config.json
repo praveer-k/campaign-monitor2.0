@@ -1,0 +1,10 @@
+{ "twitter" : { "access_key"      : "521491105-o8lTsPVbbm6cS2owzUu6mC7RXQmHsgYKva7bvYaD",
+                "access_secret"   : "w683prxcOfbT8nLCiBlL7TVC33GIuwIcJLasnOmyzIwjC"     ,
+      	        "consumer_secret" : "F8okSeqULXCxPIiGHPB4tadW6VwhHaKM619MYRdYL2Uy4sNvxB",
+                "consumer_key"    : "gmGFJH0EhzHxuh4j6SRiS6uLK"
+  },
+  "googleMaps" : { "key"      : "AIzaSyBNMkz26a_I_VXd2UxWjz0MY1usklgNmls",
+		           "api_name" : "browserKey",
+		           "api_type" : "browser"
+  }
+}

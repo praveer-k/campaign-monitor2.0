@@ -1,0 +1,33 @@
+{
+  "name": "Campaign Monitor",
+  "version": "2.0.0",
+  "scripts": {
+    "downloader"  : "python3 downloader.py",
+    "classifier"  : "python3 classifier.py",
+    "cleaning"    : "python3 cleaning.py",
+    "modelling"   : "python3 modelling.py",
+    "diagnostics" : "python3 diagnostics.py",
+    "report"      : "python3 report.py"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pip install tweepy" : "",
+    "pip install pyyaml" : "",
+    "pip install progress" : "",
+    "pip install html" : "",
+    "pip install openpyxl" : "",
+    "pip install statistics" : "",
+    "pip install nltk" : "",
+    "pip install numpy" : "",
+    "pip install scipy" : "",
+    "pip install sklearn" : "",
+    "pip install matplotlib" : "",
+    "pip install xlrd" : "",
+    "pip install pandas" : "",
+    "pip install patsy" : "",
+    "pip install statsmodels" : "",
+    "pip install bottle" : "",
+    "sudo apt install pandoc" : "",
+    "pdflatex" : ""
+  }
+}
